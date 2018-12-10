@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F09428AD-F131-4E4C-8D6B-6E0B4D4748E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Finex.Buisness</RootNamespace>
+    <AssemblyName>Finex.Buisness</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuisnessHelper\ClaimHelper.cs" />
+    <Compile Include="BuisnessHelper\ClaimReverseFeed.cs" />
+    <Compile Include="BuisnessHelper\CustomerHelper.cs" />
+    <Compile Include="BuisnessHelper\UserHelper.cs" />
+    <Compile Include="IBuisnessHelper\IClaimHelper.cs" />
+    <Compile Include="IBuisnessHelper\IClaimReverseHelper.cs" />
+    <Compile Include="IBuisnessHelper\ICustomerHelper.cs" />
+    <Compile Include="IBuisnessHelper\IUserHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Finex.Data\Finex.Data.csproj">
+      <Project>{62bbacdd-b034-4019-adaa-f9839366555e}</Project>
+      <Name>Finex.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Finex.Dto\Finex.Dto.csproj">
+      <Project>{d6e36c6b-5c95-4994-b5dd-dc0342b8dec5}</Project>
+      <Name>Finex.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Finex.Logging\Finex.Logging.csproj">
+      <Project>{94cfa766-baed-4fd1-b9ce-7359bb5a3c7a}</Project>
+      <Name>Finex.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Finex.Utility\Finex.Utility.csproj">
+      <Project>{47ec3767-45fe-4f9a-8e36-b16c243ad8b1}</Project>
+      <Name>Finex.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

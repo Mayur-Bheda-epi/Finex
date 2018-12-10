@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6E36C6B-5C95-4994-B5DD-DC0342B8DEC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Finex.Dto</RootNamespace>
+    <AssemblyName>Finex.Dto</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dtos\CardTypeMasterDto.cs" />
+    <Compile Include="Dtos\CityMasterDto.cs" />
+    <Compile Include="Dtos\ClaimReverseFeedDto.cs" />
+    <Compile Include="Dtos\ClaimsDto.cs" />
+    <Compile Include="Dtos\ClaimSearchDto.cs" />
+    <Compile Include="Dtos\CommonDto.cs" />
+    <Compile Include="Dtos\CountryMasterDto.cs" />
+    <Compile Include="Dtos\CustomersDto.cs" />
+    <Compile Include="Dtos\DashboardDataDto.cs" />
+    <Compile Include="Dtos\DashboardDto.cs" />
+    <Compile Include="Dtos\DashboardViewModelDto.cs" />
+    <Compile Include="Dtos\DocumentTypeMasterDto.cs" />
+    <Compile Include="Dtos\DocumentUploadsDto.cs" />
+    <Compile Include="Dtos\InsurerClaimDto.cs" />
+    <Compile Include="Dtos\IntimationTransactionDto.cs" />
+    <Compile Include="Dtos\LossTypeIdDto.cs" />
+    <Compile Include="Dtos\LossTypeMasterDto.cs" />
+    <Compile Include="Dtos\MailTemplatedto.cs" />
+    <Compile Include="Dtos\OTPDto.cs" />
+    <Compile Include="Dtos\PagedData.cs" />
+    <Compile Include="Dtos\PasswordsDto.cs" />
+    <Compile Include="Dtos\PolicyMasterDto.cs" />
+    <Compile Include="Dtos\ReverseClaimFeedDto.cs" />
+    <Compile Include="Dtos\ReverseResponse.cs" />
+    <Compile Include="Dtos\StateMasterDto.cs" />
+    <Compile Include="Dtos\StatusMasterDto.cs" />
+    <Compile Include="Dtos\SummaryDetailDto.cs" />
+    <Compile Include="Dtos\SummaryDto.cs" />
+    <Compile Include="Dtos\UpdatePasswordDto.cs" />
+    <Compile Include="Dtos\UpdateStatusRequestDto.cs" />
+    <Compile Include="Dtos\UpdateUserMasterDto.cs" />
+    <Compile Include="Dtos\UserLoginDto.cs" />
+    <Compile Include="Dtos\UserMasterDto.cs" />
+    <Compile Include="Dtos\UserTypesDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

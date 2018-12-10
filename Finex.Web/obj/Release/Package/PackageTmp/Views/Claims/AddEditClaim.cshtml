@@ -1,0 +1,914 @@
+﻿@model Finex.Dto.Dtos.ClaimsDto
+@{
+    ViewBag.Title = "AddEditClaim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+
+    function Validate() {
+        debugger;
+        var cardType = $("#ddlCardTypeId").val();
+
+        var lossTypeParent = $("#ddlLossTypeIdParent").val();
+        var lossType = $("#ddlLossTypeId").val();
+        //  var countryType = $("#ddlCountryId").val();
+        //var stateType = $("#ddlStateId").val();
+        //var cityType = $("#ddlCityId").val();
+        // var ddlPolicyNumberId = $("#ddlPolicyNumberId").val();
+        var validateCardType = $("#validateCardType");
+        var validateLossType = $("#validateLossType");
+        var validateLossTypeParent = $("#validateLossTypeParent");
+        var validateDateOfLoss = $("#validateDateOfLoss");
+
+        //var validateCountryType = $("#validateCountryType");
+        //var validateStateType = $("#validateStateType");
+        //var validateCityType = $("#validateCityType");
+        //var validatePolicy = $("#validatePolicy");
+        var msg = "";
+
+        if (lossTypeParent == 0 || lossTypeParent == null) {
+            validateLossTypeParent.text("Loss type is required");
+            msg = msg + "lt,";
+        }
+        else
+            validateLossTypeParent.text("");
+
+
+        if (lossType == 0 || lossType == null) {
+            validateLossType.text("Nature of loss is required");
+            msg = msg + "nlt,";
+        }
+        else
+            validateLossType.text("");
+        if (cardType == 0 || cardType == null) {
+            validateCardType.text("Card type is required");
+            msg = msg + "ct,";
+        }
+        else
+            validateCardType.text("");
+
+
+        if (lossTypeParent == 21 && cardType == 2) {
+            var varDateOfLoss = document.getElementsByName('DateOfLoss')[0].value;
+            if (varDateOfLoss == '') {
+                validateDateOfLoss.text("Date of Loss is required");
+                msg = msg + "lt,";
+            }
+            else { validateDateOfLoss.text(""); }
+        }
+
+        //if (countryType == 0) {
+        //    validateCountryType.text("Country is required");
+        //    msg = msg + "ctry,";
+        //}
+        //else
+        //    validateCountryType.text("");
+
+        //if (ddlPolicyNumberId == 0) {
+        //    validatePolicy.text("Policy is required");
+        //    msg = msg + "policy,";
+        //} else {
+        //    validatePolicy.text("");
+        //}
+
+        //if (stateType == 0) {
+        //    validateStateType.text("State is required");
+        //    msg = msg + "st,";
+        //}
+        //else
+        //    validateStateType.text("");
+
+        //if (cityType == 0) {
+        //    validateCityType.text("City is required");
+        //    msg = msg + "cty,";
+        //}
+        //else
+        //    validateCityType.text("");
+
+        //switch (parseInt(lossType)) {
+        //    case 4:
+        //    case 1:
+        //    case 2:
+        //    case 3:
+        //    case 11:
+        //    case 12:
+        //    case 13:
+        //    case 14:
+        //        var AmountOfLossId = $("#AmountOfLossId").val();
+        //        var validateAmountOfLoss = $("#validateAmountOfLoss");
+        //        var datepicker1 = $("#datepicker1").val();
+        //        var validateDateOfLoss = $("#validateDateOfLoss");
+        //        // var PanNumberId = $("#PanNumberId").val();
+        //        // var validatePanNumber = $("#validatePanNumber");
+        //        var CardBlockingDateId = $("#CardBlockingDateId").val();
+        //        var validateCardBlockDate = $("#validateCardBlockDate");
+
+        //        if (AmountOfLossId == "") {
+        //            validateAmountOfLoss.text("Amount of loss required");
+        //            msg = msg + "aol,";
+        //        }
+        //        else
+        //            validateAmountOfLoss.text("");
+
+        //        if (datepicker1 == "") {
+        //            validateDateOfLoss.text("Date of loss required");
+        //            msg = msg + "dol,";
+        //        }
+        //        else
+        //            validateDateOfLoss.text("");
+
+        //        //if (PanNumberId == "") {
+        //        //    validatePanNumber.text("Pan number is required");
+        //        //    msg = msg + "pan,";
+        //        //}
+        //        //else
+        //        //    validatePanNumber.text("");
+        //        if (CardBlockingDateId == "") {
+        //            validateCardBlockDate.text("Card Block Date is required");
+        //            msg = msg + "CBD,";
+        //        }
+        //        else
+        //            validateCardBlockDate.text("");
+
+        //        break;
+        //    case 5:
+        //    case 16:
+        //    case 18:
+        //    case 20:
+        //        // var AmountOfLossId = $("#AmountOfLossId").val();
+        //        // var validateAmountOfLoss = $("#validateAmountOfLoss");
+        //        var DateOfDeathId = $("#DateOfDeathId").val();
+        //        var validateDateOfDeath = $("#validateDateOfDeath");
+        //        var DateOfPOSId = $("#DateOfPOSId").val();
+        //        var validateDateOfPOS = $("#validateDateOfPOS");
+        //        //var PanNumberId = $("#PanNumberId").val();
+        //        //var validatePanNumber = $("#validatePanNumber");
+        //        //if (AmountOfLossId == "") {
+        //        //    validateAmountOfLoss.text("Claim Amount is required");
+        //        //    msg = msg + "aol,";
+        //        //}
+        //        //else
+        //        //    validateAmountOfLoss.text("");
+
+        //        if (DateOfPOSId == "") {
+        //            validateDateOfPOS.text("Date of POS required");
+        //            msg = msg + "dpos,";
+        //        }
+        //        else
+        //            validateDateOfPOS.text("");
+
+        //        if (DateOfDeathId == "") {
+        //            validateDateOfDeath.text("Date of Death required");
+        //            msg = msg + "dod,";
+        //        }
+        //        else
+        //            validateDateOfDeath.text("");
+
+        //        //if (PanNumberId == "") {
+        //        //    validatePanNumber.text("Pan number is required");
+        //        //    msg = msg + "pan,";
+        //        //}
+        //        //else
+        //        //    validatePanNumber.text("");
+
+        //        break;
+        //    case 6:
+        //    case 15:
+        //        var DateOfPuchaseId = $("#DateOfPuchaseId").val();
+        //        var validateDateOfPurchase = $("#validateDateOfPurchase");
+        //        var DateIntimationBankId = $("#DateIntimationBankId").val();
+        //        var validateDateOfIntimation = $("#validateDateOfIntimation");
+        //        if (DateOfPuchaseId == "") {
+        //            validateDateOfPurchase.text("Date of Purchase required");
+        //            msg = msg + "dpurchase,";
+        //        }
+        //        else
+        //            validateDateOfPurchase.text("");
+
+        //        if (DateIntimationBankId == "") {
+        //            validateDateOfIntimation.text("Date of Intimation required");
+        //            msg = msg + "dtInti,";
+        //        }
+        //        else
+        //            validateDateOfIntimation.text("");
+
+        //        break;
+        //    case 7:
+        //    case 9:
+        //        //var PanNumberId = $("#PanNumberId").val();
+        //        //var validatePanNumber = $("#validatePanNumber");
+        //        var datepicker1 = $("#datepicker1").val();
+        //        var validateDateOfLoss = $("#validateDateOfLoss");
+        //        if (datepicker1 == "") {
+        //            validateDateOfLoss.text("Date of loss required");
+        //            msg = msg + "dol,";
+        //        }
+        //        else
+        //            validateDateOfLoss.text("");
+
+        //        //if (PanNumberId == "") {
+        //        //    validatePanNumber.text("Pan number is required");
+        //        //    msg = msg + "pan,";
+        //        //}
+        //        //else
+        //        //    validatePanNumber.text("");
+        //        //break;
+        //    case 8:
+        //        //  var AmountOfLossId = $("#AmountOfLossId").val();
+        //        //  var validateAmountOfLoss = $("#validateAmountOfLoss");
+        //        //var PanNumberId = $("#PanNumberId").val();
+        //        //var validatePanNumber = $("#validatePanNumber");
+        //        //if (AmountOfLossId == "") {
+        //        //    validateAmountOfLoss.text("Claim Amount is required");
+        //        //    msg = msg + "aol,";
+        //        //}
+        //        //else
+        //        //    validateAmountOfLoss.text("");
+        //        //if (PanNumberId == "") {
+        //        //    validatePanNumber.text("Pan number is required");
+        //        //    msg = msg + "pan,";
+        //        //}
+        //        //else
+        //        //    validatePanNumber.text("");
+
+
+        //        break;
+        //    case 10:
+        //        var DateOfJoiningId = $("#DateOfJoiningId").val();
+        //        var validateDateOfJoining = $("#validateDateOfJoining");
+        //        var DateOfLeavingId = $("#DateOfLeavingId").val();
+        //        var validateDateOfLeaving = $("#validateDateOfLeaving");
+        //        //var PanNumberId = $("#PanNumberId").val();
+        //        //var validatePanNumber = $("#validatePanNumber");
+        //        if (DateOfJoiningId == "") {
+        //            validateDateOfJoining.text("Date of Joining required");
+        //            msg = msg + "doj,";
+        //        }
+        //        else
+        //            validateDateOfJoining.text("");
+
+        //        if (DateOfLeavingId == "") {
+        //            validateDateOfLeaving.text("Date of Leaving required");
+        //            msg = msg + "dol,";
+        //        }
+        //        else
+        //            validateDateOfLeaving.text("");
+        //        //if (PanNumberId == "") {
+        //        //    validatePanNumber.text("Pan number is required");
+        //        //    msg = msg + "pan,";
+        //        //}
+        //        //else
+        //        //    validatePanNumber.text("");
+        //        break;
+
+
+        //}
+
+
+        if (msg != "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+
+
+    }
+</script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $('#DateLossToBank').datepicker(
+            {
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "-100:+0"
+            }).attr('readonly', 'readonly');
+        $('#DateSinceIntimation').datepicker(
+           {
+               changeMonth: true,
+               changeYear: true,
+               yearRange: "-100:+0"
+           }).attr('readonly', 'readonly');
+    });
+
+
+    function CheckDateOfLoss() {
+
+        var reportingDate = $("#DateLossToBank").val();
+        var dtDateLosss = $("#datepicker1").val();
+        var repDate = new Date(reportingDate);
+        var dtDatLoss = new Date(dtDateLosss);
+        if (dtDatLoss > repDate) {
+            alert("Date of loss should not greater than date of reporting ");
+            $("#datepicker1").val("");
+        }
+    }
+
+    function CheckCadBlockingDate() {
+        var reportingDate = $("#DateLossToBank").val();
+        var dtDateLosss = $("#datepicker1").val();
+        var cardBlockDate = $("#CardBlockingDateId").val();
+        var repDate = new Date(reportingDate);
+        var dtDatLoss = new Date(dtDateLosss);
+        var cadDate = new Date(cardBlockDate);
+        if (cadDate < dtDatLoss || cadDate > repDate) {
+            alert("Date of card block should not less than date of loss and should not greater that date of reporting");
+            $("#CardBlockingDateId").val("");
+        }
+    }
+
+    function checkDate() {
+        var EnteredDate = $("#DateLossToBank").val(); // For JQuery
+
+
+        var myDate = new Date(EnteredDate);
+        //  alert(myDate);
+
+        var today = new Date();
+
+        if (myDate > today) {
+            alert("Entered date is greater than today's date ");
+            $("#DateLossToBank").val("");
+        }
+
+
+
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+
+        $('#myform').submit(function () {
+            if ($('#myform').valid()) {
+                $('#btnSubmit').attr('disabled', 'disabled');
+                $("#btnSubmit").prop('value', 'Saving..');
+            }
+        });
+
+        $("#ddlCountryId").change(function () {
+            var countryId = $("#ddlCountryId").val();
+            $.post('@Url.Action("GetStateByCountryId", "Claims")', { countryId: countryId }, function (result) {
+                var select = $("#ddlStateId");
+                select.empty();
+                select.append($('<option/>', {
+                    value: "0",
+                    text: "--Select--"
+                }));
+                $.each(result, function (index, Data) {
+                    select.append($('<option/>', {
+                        value: Data.Value,
+                        text: Data.Text
+                    }));
+                });
+            });
+        });
+
+
+        $("#ddlStateId").change(function () {
+            var stateId = $("#ddlStateId").val();
+
+            $.post('@Url.Action("GetCityByStateId", "Claims")', { stateId: stateId }, function (result) {
+                var select = $("#ddlCityId");
+                select.empty();
+                select.append($('<option/>', {
+                    value: "0",
+                    text: "--Select--"
+                }));
+                $.each(result, function (index, Data) {
+                    select.append($('<option/>', {
+                        value: Data.Value,
+                        text: Data.Text
+                    }));
+                });
+            });
+        });
+
+        $("#ddlCardTypeId").change(function () {
+            var cardTypeId = $("#ddlCardTypeId").val();
+            @*$.post('@Url.Action("GetLossTypeByCardType", "Claims")', { cardTypeId: cardTypeId }, function (result) {
+                var select = $("#ddlLossTypeId");
+                select.empty();
+                select.append($('<option/>', {
+                    value: "0",
+                    text: "--Select--"
+                }));
+                $.each(result, function (index, Data) {
+                    select.append($('<option/>', {
+                        value: Data.Value,
+                        text: Data.Text
+                    }));
+                });
+            });*@
+
+
+            @*$.post('@Url.Action("GetPolicyByCardTypeId", "Claims")', { cardTypeId: cardTypeId }, function (result) {
+                var select = $("#ddlPolicyNumberId");
+                select.empty();
+                //select.append($('<option/>', {
+                //    value: "0",
+                //    text: "--Select--"
+                //}));
+                $.each(result, function (index, Data) {
+                    select.append($('<option/>', {
+                        value: Data.Value,
+                        text: Data.Text
+                    }));
+                });
+            });*@
+
+        });
+
+        $("#ddlLossTypeIdParent").change(function () {
+            var lossTypeId = $("#ddlLossTypeIdParent").val();
+            $.post('@Url.Action("GetNatureOfLossTypeLossTypeId", "Claims")', { lossTypeId: lossTypeId }, function (result) {
+                var select = $("#ddlLossTypeId");
+                select.empty();
+                select.append($('<option/>', {
+                    value: "0",
+                    text: "--Select--"
+                }));
+                $.each(result, function (index, Data) {
+                    select.append($('<option/>', {
+                        value: Data.Value,
+                        text: Data.Text
+                    }));
+                });
+            });
+
+            var cardTypeId = $("#ddlCardTypeId").val();
+            $.post('@Url.Action("GetPolicyByCardTypeIdAndLossTypeId", "Claims")', { cardTypeId: cardTypeId, lossTypeId: lossTypeId }, function (result) {
+                var select = $("#ddlPolicyNumberId");
+                select.empty();
+                //select.append($('<option/>', {
+                //    value: "0",
+                //    text: "--Select--"
+                //}));
+                $.each(result, function (index, Data) {
+                    select.append($('<option/>', {
+                        value: Data.Value,
+                        text: Data.Text
+                    }));
+                });
+            });
+
+
+
+
+        });
+
+
+
+        $("#ddlLossTypeId").change(function () {
+            //debugger;
+            var lssTypeId = $("#ddlLossTypeId").val();
+            var hdnClaimId = $("#hdnClaimId").val();
+            //var cardtypeid = $("#ddlCardTypeId").val();
+            //alert(cardtypeid);
+            //  alert(lssTypeId);
+            $("#divLoss").load('@Url.Action("GetLossTypeColumns", "Claims")?id=' + lssTypeId + '&claimId=' + hdnClaimId);
+            @*$("#divLoss").load('@Url.Action("GetLossTypeColumns", "Claims")?cardtypeid=' + cardtypeid + '&id=' + lssTypeId + '&claimId=' + hdnClaimId);*@
+            //$("#divLoss").load('/Claims/GetLossTypeColumns/' + lssTypeId);
+            return false;
+        });
+
+
+    });
+</script>
+
+
+<div class="row">
+
+    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+        <br />
+
+        <div class="login-cntnr">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="inner-header pull-left">
+                        <h2 class="text-left ">Register a Claim</h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="btn-cntnr pull-right" style="padding-top: 15px;">
+                        <button class="btn btn-default" onclick="javascript:window.location.href = '@Url.Action("Index", "Claims")';">Back</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            @using (Html.BeginForm("SaveClaims", "Claims", FormMethod.Post, new { @id = "myform" }))
+            {
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="ClaimId" value="@Model.ClaimId" id="hdnClaimId"/>
+                <input type="hidden" name="CustId" value="@Model.CustId" />
+                if (Convert.ToInt32(Session["UserTypeId"]) == 1)
+                {
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                Claim Number* :</label>
+                            <input type="text" name="txtClaimNumber" value="@Model.ClaimNumber" class="form-control"/>
+                        </div>
+                    </div>
+
+                    @* <div class="col-lg-6 col-md-6">
+                    </div>*@
+                </div>
+                }
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                Card Number* :</label>
+                            @Html.TextBoxFor(m => m.CardNo, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CardNo, null, new { style = "color: red" })
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                Type of Card* :
+                            </label>
+
+                            <select class="form-control" name="ddlCardType" id="ddlCardTypeId">
+                                <option value="0">--Select--</option>
+                                @foreach (var cardType in Model.CardTypeMasterDtos)
+                                {
+                                    if (cardType.CardTypeId == Model.CardTypeId)
+                                    {
+                                    <option value="@cardType.CardTypeId" selected="selected">@cardType.CardTypeName</option>
+                                    }
+                                    else
+                                    {
+                                    <option value="@cardType.CardTypeId">@cardType.CardTypeName</option>
+                                    }
+                                }
+                            </select>
+                            <span id="validateCardType" style="color: red"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                Account Number :</label>
+                            @Html.TextBoxFor(m => m.AccountNumber, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.AccountNumber, null, new { style = "color: red" })
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/loss.png" class="icons">
+                                Type of Loss :
+                            </label>
+                            <select class="form-control" name="ddlLossTypeParent" id="ddlLossTypeIdParent">
+                                <option value="0">--Select--</option>
+                                @foreach (var lossTypeParent in Model.LossTypeMasterParentDtos)
+                                {
+                                    if (lossTypeParent.LossTypeId == Model.LossTypeIdParent)
+                                    {
+                                    <option value="@lossTypeParent.LossTypeId" selected="selected">@lossTypeParent.LossType</option>
+                                    }
+                                    else
+                                    {
+                                    <option value="@lossTypeParent.LossTypeId">@lossTypeParent.LossType</option>
+                                    }
+                                }
+
+
+                            </select>
+                            <span id="validateLossTypeParent" style="color: red"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Name of the Card Holder* :</label>
+                            @Html.TextBoxFor(m => m.CustomersDto.CustomerName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CustomersDto.CustomerName, null, new { style = "color: red" })
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/loss.png" class="icons">
+                                Nature of Loss :
+                            </label>
+                            <select class="form-control" name="ddlLossType" id="ddlLossTypeId">
+                                <option value="0">--Select--</option>
+                                @foreach (var lossType in Model.LossTypeMasterDtos)
+                                {
+                                    if (lossType.LossTypeId == Model.LossTypeId)
+                                    {
+                                    <option value="@lossType.LossTypeId" selected="selected">@lossType.LossType</option>
+                                    }
+                                    else
+                                    {
+                                    <option value="@lossType.LossTypeId">@lossType.LossType</option>
+                                    }
+                                }
+
+
+                            </select>
+                            <span id="validateLossType" style="color: red"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                Policy Number* :
+                            </label>
+
+                            <select class="form-control" name="ddlPolicyNumber" id="ddlPolicyNumberId">
+                                <option value="0">--Select--</option>
+                                @foreach (var policyDto in Model.PolicyMasterDtos)
+                                {
+                                    if (policyDto.PolicyId == Model.PolicyId)
+                                    {
+                                    <option value="@policyDto.PolicyId" selected="selected">@policyDto.PolicyNumber</option>
+                                    }
+                                    else
+                                    {
+                                    <option value="@policyDto.PolicyId">@policyDto.PolicyNumber</option>
+                                    }
+                                }
+                            </select>
+                            <span id="validatePolicy" style="color: red"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/location.png" class="icons">
+                                Place of Loss* :</label>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <select class="form-control" name="ddlCountry" id="ddlCountryId">
+                                        <option value="0">--Select--</option>
+                                        @foreach (var country in Model.CountryMasterDtos)
+                                        {
+                                            if (country.CountryId == Model.CountryId)
+                                            {
+                                            <option value="@country.CountryId" selected="selected">@country.CountryName</option>
+                                            }
+                                            else
+                                            {
+                                            <option value="@country.CountryId">@country.CountryName</option>
+                                            }
+                                        }
+
+                                    </select>
+                                    <span id="validateCountryType" style="color: red"></span>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <select class="form-control" name="ddlState" id="ddlStateId">
+                                        <option value="0">Select</option>
+                                        @foreach (var state in Model.StateMasterDtos)
+                                        {
+                                            if (state.StateId == Model.StateId)
+                                            {
+                                            <option value="@state.StateId" selected="selected">@state.StateName</option>
+                                            }
+                                            else
+                                            {
+                                            <option value="@state.StateId">@state.StateName</option>
+                                            }
+                                        }
+                                    </select>
+                                    <span id="validateStateType" style="color: red"></span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <select class="form-control" name="ddlCity" id="ddlCityId">
+                                        <option value="0">Select</option>
+                                        @foreach (var city in Model.CityMasterDtos)
+                                        {
+                                            if (city.CityId == Model.CityId)
+                                            {
+                                            <option value="@city.CityId" selected="selected">@city.CityName</option>
+                                            }
+                                            else
+                                            {
+                                            <option value="@city.CityId" >@city.CityName</option>
+                                            }
+                                        }
+                                    </select>
+                                    <span id="validateCityType" style="color: red"></span>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    @Html.TextBoxFor(m => m.MerchantShop, new { @class = "form-control", @placeholder = "Merchant/Shop" })
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/email.png" class="icons">
+                                Address :
+                            </label>
+
+
+                            @Html.TextBoxFor(m => m.CustomersDto.Address, new { @class = "form-control" })
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/email.png" class="icons">
+                                Email* :</label>
+
+
+                            @Html.TextBoxFor(m => m.CustomersDto.EmailId, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CustomersDto.EmailId, null, new { style = "color: red" })
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/phone.png" class="icons">
+                                Mobile Number* :</label>
+                            @Html.TextBoxFor(m => m.CustomersDto.MobileNumber, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.CustomersDto.MobileNumber, null, new { style = "color: red" })
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Date of Reporting Loss to Bank* :</label>
+                            @Html.TextBoxFor(m => m.DateLossToBank, new { @class = "form-control dt", @onchange = "checkDate()" })
+                            @Html.ValidationMessageFor(m => m.DateLossToBank, null, new { style = "color: red" })
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/loss.png" class="icons">
+                                Time of Reporting Loss to Bank (24H Format) eg. 22:30 :</label>
+                            @Html.TextBoxFor(m => m.TimeOfReportingBank, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.TimeOfReportingBank, null, new { style = "color: red" })
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="row">
+
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/loss.png" class="icons">
+                                Axis Oneview SR Number :</label>
+                            @Html.TextBoxFor(m => m.SrNumber, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.SrNumber, null, new { style = "color: red" })
+                        </div>
+                    </div>
+
+                    @* <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Daily Withdrawal Limit :</label>
+                            @Html.TextBoxFor(m => m.DailyWithdrawalLimit, new { @class = "form-control", @onkeypress = "return AllowOnlyNumeric(event);" })
+                            @Html.ValidationMessageFor(m => m.DailyWithdrawalLimit, null, new { style = "color: red" })
+
+                        </div>
+                    </div>*@
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Claim Amount :</label>
+
+
+                            @Html.TextBoxFor(m => m.ClaimAmount, new { @class = "form-control", @onkeypress = "return AllowOnlyNumeric(event);" })
+                            @Html.ValidationMessageFor(m => m.ClaimAmount, null, new { style = "color: red" })
+                        </div>
+                    </div>
+
+                </div>@*  
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Date Since Intimation :</label>
+                            
+                            <input type="text" class="form-control dt" name="DateSinceIntimation" value="@if (Model.DateSinceIntimation != null)
+                                                                                    {
+                                                                                        @Model.DateSinceIntimation.Value.ToShortDateString()
+                                                                                    }
+                                                                                       " id='DateSinceIntimation'>
+                           
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                        </div>
+                    </div>
+
+                </div>  
+                *@
+                <div id="divLoss">
+                    @if (Model.ClaimId > 0)
+                    {
+                        @Html.Action("GetLossTypeColumns", "Claims", new { id = Model.LossTypeId, claimId = Model.ClaimId })
+                    }
+                </div>
+                  
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Comment :</label>
+                            @Html.TextAreaFor(m => m.Comment, new { @class = "form-control" })
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                        </div>
+                    </div>
+
+                </div>  
+                  
+
+                <div style="height: 20px;"></div>
+                <div class="btn-cntnr pull-left">
+                    <button class="btn btn-default" type="submit" id="btnSubmit" onclick="return Validate()">Save</button>
+                    &nbsp;
+                    <button type="button" class="btn btn-default" onclick="CancelAdd()">Cancel</button>
+                </div>
+            }
+            '<div class="clearfix"></div>
+            <br />
+        </div>
+    </div>
+</div>
+<div class="gapper"></div>
+
+<script>
+    function CancelAdd() {
+        window.location.href = "@Url.Action("Index", "Claims")";
+    }
+
+</script>

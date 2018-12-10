@@ -1,0 +1,48 @@
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+D:\tfs\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+D:\tfs\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+D:\tfs\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+D:\tfs\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\Working Folder\Others\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Dto\bin\Debug\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Dto\obj\Debug\Finex.Dto.pdb

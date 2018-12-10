@@ -1,0 +1,112 @@
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+<script>  
+function login()
+{
+
+ var objLog={
+"username":"snehal.r",
+   "password":"abc@123",
+ 	"domain":"dh.com",
+ 	"ldapPath":"ldap://45.35.64.191",
+ 	"serverName":"dh.com"};
+alert(JSON.stringify(objLog));
+         $.ajax({
+  headers: { 
+        'Accept': 'application/json',
+        'Content-Type': 'application/json' 
+    },
+                     url: 'http://demo1.avhan.com:5080/LDAP/services/user/login',
+                     type: 'POST',
+                     dataType: 'json',
+                     data:JSON.stringify(objLog),
+                     success: function (data, textStatus, xhr) {
+                         console.log(data);
+                     },
+                     error: function (xhr, textStatus, errorThrown) {
+                         console.log('Error in Operation');
+                     }
+                 });
+}
+
+
+function GetAllUsers()
+{
+ var objAllUser={
+    "username":"snehal.r",
+    "password":"abc@123",
+  	"domain":"dh.com",
+  	"ldapPath":"ldap://45.35.64.191",
+  	"serverName":"dh.com",
+ "searchArray" : null
+  
+    
+}
+alert(JSON.stringify(objAllUser));
+
+  $.ajax({
+  headers: { 
+        'Accept': 'application/json',
+        'Content-Type': 'application/json' 
+    },
+                     url: 'http://demo1.avhan.com:5080/LDAP/services/user/getuser',
+                     type: 'POST',
+                     dataType: 'json',
+                     data:JSON.stringify(objAllUser),
+                     success: function (data, textStatus, xhr) {
+                         console.log(data);
+                     },
+                     error: function (xhr, textStatus, errorThrown) {
+                         console.log('Error in Operation');
+                     }
+                 });
+
+}
+
+function GetSearchUsers()
+{
+ var objSearchUser=
+    {
+     "username":"snehal.r",
+    "password":"abc@123",
+  	"domain":"dh.com",
+  	"ldapPath":"ldap://45.35.64.191",
+  	"serverName":"dh.com",
+  "searchArray" : [{"key":"sAMAccountName","value":"snehal.r"}]
+  
+    
+}
+alert(JSON.stringify(objSearchUser));
+
+  $.ajax({
+  headers: { 
+        'Accept': 'application/json',
+        'Content-Type': 'application/json' 
+    },
+                     url: 'http://demo1.avhan.com:5080/LDAP/services/user/getuser',
+                     type: 'POST',
+                     dataType: 'json',
+                     data:JSON.stringify(objSearchUser),
+                     success: function (data, textStatus, xhr) {
+                         console.log(data);
+                     },
+                     error: function (xhr, textStatus, errorThrown) {
+                         console.log('Error in Operation');
+                     }
+                 });
+}
+
+</script>
+</head>
+<body>
+  <input type= "button" value="GetLogin" onclick="login()"/>
+
+<input type="button" value ="GetAllUser" onclick="GetAllUsers()"/>
+
+<input type="button" value ="GetSearchUser" onclick="GetSearchUsers()"/>
+
+</body>
+
+<html>

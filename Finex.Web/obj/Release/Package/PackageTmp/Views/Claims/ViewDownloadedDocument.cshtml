@@ -1,0 +1,58 @@
+﻿@model List<Finex.Dto.Dtos.DocumentUploadsDto>
+
+@{
+    ViewBag.Title = "ViewDownloadedDocument";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="login-cntnr">
+            <div class="inner-header pull-left">
+                <h2>View Download Document of @ViewBag.CustomerName for @ViewBag.LossType</h2>
+            </div>
+
+            <div class="btn-cntnr pull-right">
+                <button class="btn btn-default" onclick="javascript:window.location.href='@Url.Action("Index", "Claims")';">Back</button>
+            </div>
+            @using(Html.BeginForm("DownloadZip","Claims"))
+            {
+                <input type="hidden" name="hdnClmIdDownloadZip" value="@ViewBag.Clmid"/>
+                <div class="btn-cntnr pull-right">
+                    <button class="btn btn-default" type="submit" >Download zip</button>
+                </div>
+            }
+
+            <div class="row table-responsive">
+            <table class="table table-bordered table-striped myborder">
+                <thead>
+                    <tr>
+                        <th>Document Name</th>
+                        <th>Upload Date</th>
+                        <th>Download</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var docDown in Model)
+                    {
+                        <tr>
+                            <td>@docDown.DocumentTypeName</td>
+                             <td>@if (docDown.DocumentUploadDate != null)
+                                              {
+                                                  @docDown.DocumentUploadDate.Value.ToString("dd-MMM-yy")
+                                              }
+
+                                          </td>
+                            <td><a href="~/UploadDocuments/@docDown.DocumentPath" target="_blank">Click here to view or download</a> </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+                </div>
+            <div style="height: 20px;"></div>
+        </div>
+    </div>
+</div>
+<div class="gapper"></div>
+

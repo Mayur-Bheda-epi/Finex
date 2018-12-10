@@ -1,0 +1,72 @@
+﻿@model Finex.Dto.Dtos.OTPDto
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<script>
+    $(document).ready(function () {
+
+
+        $('#myform').submit(function () {
+            $('#btnSubmit').attr('disabled', 'disabled');
+            $('#btnGenerateOtp').attr('disabled', 'disabled');
+            $("#btnSubmit").prop('value', 'logging..');
+        });
+    });
+
+    function RegenrateOtp(id) {
+        $('#btnSubmit').attr('disabled', 'disabled');
+        $('#btnGenerateOtp').attr('disabled', 'disabled');
+        window.location.href = '@Url.Action("RegenrateOtp", "Customer")?id=' + id;
+    }
+</script>
+
+@using (Html.BeginForm("LoginCustomer", "Customer", FormMethod.Post, new { @id = "myform" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12">
+            <div class="login-cntnr">
+                <div class="form-group">
+                    <label>
+                        <img src="~/Asset/img/user.png" class="icons">
+                        Name :</label>
+                    <input type="text" class="form-control" name="txtCustomerName" value="@Model.CustomerName" disabled="disabled" />
+                    <input type="hidden" name="CustomerName" value="@Model.CustomerName"/>
+                    <input type="hidden" name="CustomerId" value="@Model.CustomerId"/>
+                    <input type="hidden" name="hdnCustId" value="ViewBag.custId" />
+                    @{
+    var ecryptCustId = Finex.Utility.Encryption.Encrypt(Convert.ToString(Model.CustomerId), true);
+                    }
+                </div>
+                <div class="form-group">
+                    <label>
+                        <img src="~/Asset/img/account.png" class="icons">
+                        Last Four Digit of card :</label>
+                    <input type="text" class="form-control" name="LastFourDigit" value="@Model.LastFourDigit">
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <img src="~/Asset/img/account.png" class="icons">
+                        OTP :</label>
+                    <input type="text" class="form-control" name="OTP" value="@Model.OTP">
+                </div>
+                <div style="height: 20px;"></div>
+                <div class="btn-cntnr">
+                    @*<button class="btn btn-default">Back</button>*@
+
+                    <button type="submit" id="btnSubmit" name="Command" value="Login">Login</button>
+                    <button type="button" id="btnGenerateOtp" name="Command" value="RegerateOTP" onclick="RegenrateOtp('@ecryptCustId')">Regenerate OTP</button>
+                    @*  <input class="btn btn-default" value="RegerateOTP" name="bsubmit" id="btnGenerateOtp" type="submit" />
+                    <input type="submit" class="btn btn-default" id="" name="bsubmit" value="Login" />*@
+                    <br />
+                    <font color="red">
+
+                                    @ViewBag.Incorrectlogin</font>
+                </div>
+            </div>
+        </div>
+    </div>
+}

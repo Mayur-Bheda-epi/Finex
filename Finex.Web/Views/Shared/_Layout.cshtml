@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/date.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/bootstrap-datetimepicker.min.css">
+    <script type="text/javascript" src="~/Asset/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="~/Asset/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Asset/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="~/Asset/js/date.js"></script>
+    <script>
+        function AllowOnlyNumeric(e) {
+
+            if (window.event) // IE 
+            {
+                if (((e.keyCode < 48 || e.keyCode > 57) & e.keyCode != 8) & e.keyCode != 46) {
+                    event.returnValue = false;
+                    return false;
+                }
+            }
+            else { // Fire Fox
+                if (((e.which < 48 || e.which > 57) & e.which != 8) & e.which != 46) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+        }
+
+
+    </script>
+    <style>
+        .topbar > li > a:hover
+        {
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-act">
+        <div class="container-fluid" style="background-color: black;">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 ">
+                    @if (Session["UserId"] != null)
+                    {
+                        <ul class="nav navbar-nav navbar-right topbar " style="background: transparent; line-height: 5px; display: inline-flex;">
+
+                            <li>
+                                @if (Convert.ToInt32(Session["UserTypeId"]) != 3)
+                                {
+                                    <a onclick="javascript:window.location.href = '@Url.Action("Index", "Claims")';" style="line-height: 5px;cursor:pointer; color: white;">Home</a>
+                                }
+                                else
+                                {
+                                    <a onclick="javascript:window.location.href = '@Url.Action("GetClaimForInsuer", "Insurer")';" style="cursor:pointer;line-height: 5px; color: white;">Home</a>
+
+                                }
+                            </li>
+
+                            <li>
+                                @if (Convert.ToInt32(Session["UserTypeId"]) == 1)
+                                { 
+                                    <a style="line-height: 5px; color: white; cursor:pointer;" onclick="javascript:window.location.href='@Url.Action("GetUsers", "User")';">Users</a>
+                                }
+                            </li>
+
+                            <li>
+                                <a style="line-height: 5px; color: white; cursor:pointer;" onclick="javascript:window.location.href='@Url.Action("Logout", "User")';">Logout</a>
+
+                            </li>
+                        </ul>
+                    }else{
+                        <ul class="nav navbar-nav navbar-right topbar " style="background: transparent; line-height: 5px; ">
+                            <li>
+                                <a onclick="javascript:window.location.href='@Url.Action("Index", "User")';"></a>
+                            </li>
+                        </ul>
+                    
+                    }
+                </div>
+            </div>
+
+
+        </div>
+        @*     <div style="height: 30px;"></div>*@
+        <div class="header" style="text-align: left">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                         @if (Session["UserId"] != null)
+            {
+                if (Convert.ToInt32(Session["UserTypeId"]) != 3)
+                {
+                <a href="@Url.Action("Index", "Claims")" style="">
+                    <img src="~/Asset/img/wtw.png" class="img img-responsive" style=""></a> 
+                }
+                else
+                {
+                <a onclick="javascript:window.location.href = '@Url.Action("GetClaimForInsuer", "Insurer")';"  style="">
+                    <img src="~/Asset/img/wtw.png"  class="img img-responsive" style=""></a>
+                }
+                }
+                    </div>
+                    <div class="col-md-6">
+
+                                    <label class="pull-right" style="color:black ;font-weight:100; font-size:16px;margin-top:25px;">  Willis Towers Watson India Insurance Brokers Private Limited</label>
+
+                    </div>
+             
+            </div>
+           
+              @*  <div class="btn-cntnr pull-right">
+                    <button class="btn btn-default" style="margin-top:25px" onclick="javascript:window.location.href='@Url.Action("Logout", "User")';">Logout</button>
+                </div>
+                
+                if (Convert.ToInt32(Session["UserTypeId"]) == 1)
+                { 
+                <div class="btn-cntnr pull-right">
+                    <button class="btn btn-default" style="margin-top:25px" onclick="javascript:window.location.href='@Url.Action("GetUsers", "User")';">Users</button>
+                </div>
+                }
+                <div class="btn-cntnr pull-right">
+
+                    @if (Convert.ToInt32(Session["UserTypeId"]) != 3)
+                    {
+                        <button class="btn btn-default" style="margin-top:25px" onclick="javascript:window.location.href = '@Url.Action("Index", "Claims")';">Home</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-default" style="margin-top:25px" onclick="javascript:window.location.href = '@Url.Action("GetClaimForInsuer", "Insurer")';">Home</button>
+                    }
+                </div>
+            }
+            else
+            {
+                <a href="#" style="padding-left: 15px;">
+                    <img src="~/Asset/img/wtw.png"></a>
+               
+                <div class="btn-cntnr pull-right">
+                    <button class="btn btn-default" onclick="javascript:window.location.href='@Url.Action("Index", "User")';">Login</button>
+                </div>
+            }*@
+                </div>
+        </div>
+        @*  <div style="height: 30px;"></div>*@
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <footer id="footer" style="background: #000;position: relative;">
+            <div class="footer_info" style="padding: 0px 0 26px;">
+                <!-- left side -->
+          
+                <div class="part1">
+                    <div class="copyright" style="color:white ;font-size:13px">
+                        Insurance is the subject matter of solicitation.<br>
+                        Copyright © 2018 Willis Towers Watson India Insurance Brokers Private Limited (formerly Almondz Insurance Brokers Private Ltd.) All Rights Reserved. @*| <a href="Disclaimers.aspx" style="color: white; font-size: small">Disclaimer</a> | <a href="PrivacyPolicy.aspx" style="color: white;">Privacy Policy</a> | <a href="Contact.aspx" style="color: white;">Contact</a>*@
+                      <div id="leftDiv" style="font-size:13px"> Regd.office / Corp.office : 2nd Floor, Sucheta
+                                    Bhavan, 11–A, Vishnu Digambar Marg, Rouse Lane Avenue, New Delhi 110002.
+                                    Tel.:011-49288888 , Fax.:011-49288808
+                                </div>
+                        <div id="leftDiv" style="font-size:13px;color:white;"> CIN : U74999DL2003PTC119593, IRDA License Code
+                                    Number CB/176/03. (Certificate Number 209), Validity Period of License : 29.08.2015
+                                    to
+                                    28.08.2018, Category of License:Composite
+                                </div>
+                    </div>
+                  
+                    
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+﻿@model List<Finex.Dto.Dtos.DocumentTypeMasterDto>
+@{
+    ViewBag.Title = "UploadDocument";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Session["SuccessMessage"] != null)
+{
+    <div id="applyMessage" style="display: none">
+        @Convert.ToString(Session["SuccessMessage"])
+    </div>
+    <script type="text/javascript">
+        alert($("#applyMessage").html());
+        window.location.href = '@Url.Action("Index","Claims")';
+    </script>
+    
+}
+
+    <script>
+        function SelectSuccess() {
+            alert("Document Selected successfully");
+        }
+    </script>
+
+    <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="login-cntnr">
+            <div class="row">
+                <div class="col-md-12">
+                     <div class="inner-header pull-left">
+                <h2>Upload Documents</h2>
+               
+            </div>
+                </div>
+            </div>
+           
+            @using (Html.BeginForm("UploadDocument", "Claims", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+            <div style="height: 10px;"></div>
+                 <input type="hidden" value="@ViewBag.ClaimId" name="hdnClaimId" />
+                <input type="hidden" value="@ViewBag.LossTypeId" name="hdnLossType" />
+                <input type="hidden" value="@ViewBag.CustomerId" name="hdnCustomer" />
+                <input type="hidden" value="@ViewBag.camFrom" id="hdnCamFom" name="hdnCamFromName"/>
+                <input type="hidden" value="@ViewBag.EncyptClaimId" id="hdnencClaimId" name="hdnencClaimIdName"/>
+                
+                
+
+                foreach (var uploadDoc in Model)
+                { 
+                <div class="upbtn" style="text-align: left ! important;">
+                    <label class="btn btn-primary btn-file finexbutt" style="background: #fff !important;
+border: 1px solid #702082 !important;
+color: #702082 !important;" >@uploadDoc.DocumentTypeName<input type="file" name="uploadFiles" onchange="SelectSuccess()"></label>
+                    <input type="hidden" name="hdnDocumentTypeIds" value="@uploadDoc.DocumentTypeId" />
+                    <input type="hidden" name="hdnDocumentTypeName" value="@uploadDoc.DocumentTypeName" />
+                </div>
+                <br>
+                }
+
+
+            @*<div class="upbtn">
+                <button class="btn btn-primary btn-file finexbutt"><i class="fa fa-upload"></i>Customer Letter<input type="file" multiple></button>
+            </div>
+            <br>
+            <div class="upbtn">
+                <button class="btn btn-primary btn-file finexbutt"><i class="fa fa-upload"></i>3 Month's Card Statements<input type="file" multiple></button>
+            </div>
+            <br>
+            <div class="upbtn">
+                <button class="btn btn-primary btn-file finexbutt"><i class="fa fa-upload"></i>Card Copy for Counterfeit Cases<input type="file" multiple></button>
+            </div>
+            <br>
+            <div class="upbtn">
+                <button class="btn btn-primary btn-file finexbutt"><i class="fa fa-upload"></i>Passport Pages (ALL PAGES)<input type="file" multiple></button>
+            </div>*@
+            <div style="height: 20px;"></div>
+            <div class="btn-cntnr">
+                <button class="btn btn-default" type="submit" >Submit</button>
+                &nbsp;
+                <button type="button" class="btn btn-default" onclick="CancelUpload()">Cancel</button>
+            </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    function CancelUpload()
+    {
+        var hdnCamFom = $("#hdnCamFom").val();
+        if (hdnCamFom == "") {
+            window.location.href = "@Url.Action("Index", "Claims")";
+        } else {
+            var claimEncyId = $("#hdnencClaimId").val();
+            window.location.href = '@Url.Action("GetClaimDetail", "Claims")?id='+claimEncyId;
+        }
+    }
+
+</script>

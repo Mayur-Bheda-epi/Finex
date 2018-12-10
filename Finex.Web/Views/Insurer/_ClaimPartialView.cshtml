@@ -1,0 +1,399 @@
+﻿@model Finex.Dto.Dtos.ClaimsDto
+
+@switch (Model.LossTypeId)
+{
+    case 4:
+    case 1:
+    case 2:
+    case 3:
+    case 11:
+    case 12:
+    case 13:
+    case 14:
+    <div class="row">
+      @*  <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/cash.png" class="icons">
+                    Amount of Loss :</label>
+
+                <p>@Model.AmountOfLoss</p>
+            </div>
+        </div>*@
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Loss :</label>
+                <p>@if (Model.DateOfLoss != null)
+                   {
+                       @Model.DateOfLoss.Value.ToString("dd-MMM-yy")
+                   }
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label  id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number :</label>
+                <p>@Model.PanNumber</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/Clock Filled-15.png" class="icons">
+                    Card Block Date :</label>
+                <p>@if (Model.CardBlockingDate != null)
+                   {
+                       @Model.CardBlockingDate.Value.ToString("dd-MMM-yy")
+                   }
+                </p>
+            </div>
+        </div>
+    </div>
+       // if (Model.LossTypeId == 1 || Model.LossTypeId == 11 || Model.LossTypeId == 13 || Model.LossTypeId == 2 || Model.LossTypeId == 12 || Model.LossTypeId == 14)
+        if (Model.LossTypeId == 11 || Model.LossTypeId == 13 || Model.LossTypeId == 12 || Model.LossTypeId == 14)
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Number of secured transaction :</label>
+                <p>@Model.NoOfSecuredTrans</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Number of un secured transaction :</label>
+                <p>@Model.NoOfUnsecuredTrans</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Secured Transaction Amount :</label>
+                <p>@Model.SecuredTransactionAmount</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Unsecured Transactions Amount :</label>
+                <p>@Model.UnsecuredTranssactionAmount</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Customers Relation with the Bank in terms of Years :</label>
+                <p>@Model.CustRelBankInYears</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Number of Issued Cards for the Account :</label>
+                <p>@Model.NoOfCardIssueAccount</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Who blocked the card? :</label>
+                <p>@Model.WhoBlockCard</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Relationship with card holder :</label>
+                <p>@Model.RelBlockCard</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Did Customer receive any SMS alert for the disputed transaction :</label>
+                <p>@Model.SmsDisputedTranaction</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    How did the customer realise about the misuse of the card?</label>
+                <p>@Model.RealiseMisuseOfCard</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Where the customer last used his card?</label>
+                <p>@Model.LastUsedCard</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Did customer use his card abroad?</label>
+                <p>@Model.UseCardInAbroad</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Where was the customer at time of disputed transaction?</label>
+                <p>@Model.WhereWasCustAtDisputed</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Who is the card with now? And are they the mandate holder?</label>
+                <p>@Model.CardWithNow</p>
+            </div>
+        </div>
+    </div>
+        }
+        break;
+    case 5:
+    case 16:
+    case 18:
+    case 20:
+        <div class="row">
+            @* <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/cash.png" class="icons">
+                    Claim Amount :</label>
+
+                <p>@Model.AmountOfLoss</p>
+            </div>
+        </div>*@
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    <label  id="lblPANNumber">
+                        <img src="~/Asset/img/card.png" class="icons">
+                        PAN Number :</label>
+                    <p>@Model.PanNumber</p>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                    <label>
+                        <img src="~/Asset/img/calender.png" class="icons">
+                        Date of POS :</label>
+                    <p>@if (Model.DateOfPOS != null)
+                       {
+                           @Model.DateOfPOS.Value.ToString("dd-MMM-yy")
+                       }
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+<div class="row">
+
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Death :</label>
+              <p>@if (Model.DateOfDeath != null)
+                 {
+                     @Model.DateOfDeath.Value.ToString("dd-MMM-yy")
+                 }
+              </p>
+            </div>
+        </div>
+
+
+    </div>
+   
+        break;
+
+    case 6:
+    case 15:
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Purchase :</label>
+                <p>@if (Model.DateOfPuchase != null)
+                   {
+                       @Model.DateOfPuchase.Value.ToString("dd-MMM-yy")
+                   }
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Intimation to bank:</label>
+                <p>@if (Model.DateIntimationBank != null)
+                   {
+                       @Model.DateIntimationBank.Value
+                   }
+                    . ToString("dd-MMM-yy")</p>
+            </div>
+        </div>
+
+
+    </div>
+        
+        break;
+    case 7:
+    case 9:
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label  id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number :</label>
+                <p>@Model.PanNumber</p>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Loss :</label>
+                <p>@if (Model.DateOfLoss != null)
+                   {
+                       @Model.DateOfLoss.Value.ToString("dd-MMM-yy")
+                   }
+                </p>
+            </div>
+        </div>
+    </div>
+        break;
+    case 8:
+    <div class="row">
+       
+          <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label  id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number :</label>
+                <p>@Model.PanNumber</p>
+
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+              @*  <label>
+                    <img src="~/Asset/img/cash.png" class="icons">
+                    Claim Amount :</label>
+
+                <p>@Model.AmountOfLoss</p>*@
+            </div>
+        </div>
+
+      
+
+
+    </div>
+
+        break;
+    case 10:
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Joining :</label>
+                <p>@if (Model.DateOfJoining != null)
+                   {
+                       @Model.DateOfJoining.Value.ToString("dd-MMM-yy")
+                   }
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Leaving :</label>
+                <p>@if (Model.DateOfLeaving != null)
+                   {
+                       @Model.DateOfLeaving.Value.ToString("dd-MMM-yy")
+                   }
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label  id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number :</label>
+                <p>@Model.PanNumber</p>
+
+            </div>
+        </div>
+
+    </div>
+        break;
+}

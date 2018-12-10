@@ -1,0 +1,64 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:SummayClaim.cshtml" caret="78" fromTop="2" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:User/f:Index.cshtml" caret="602" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:User/f:AddUser.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:User/f:EditUser.cshtml" caret="763" fromTop="7" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:_ClaimPartialView.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Customer/f:UploadDocumentCustomer.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:UploadDocument.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Insurer/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:ViewDownloadedDocument.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Customer/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Insurer/f:_ClaimPartialView.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:User/f:Login.cshtml" caret="0" fromTop="0" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/f:Global.asax.cs" caret="525" fromTop="10" />
+    <File id="62BBACDD-B034-4019-ADAA-F9839366555E/f:FinexDbEntity.Context.tt" caret="0" fromTop="0" />
+    <File id="62BBACDD-B034-4019-ADAA-F9839366555E/f:FinexDbEntity.Context.cs" caret="0" fromTop="0" />
+    <File id="94CFA766-BAED-4FD1-B9CE-7359BB5A3C7A/d:Log/f:LogWriter.cs" caret="6818" fromTop="13" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:ClaimDetail.cshtml" caret="914" fromTop="14" />
+    <File id="E30446D4-5661-4A59-8777-7474EF980481/f:Program.cs" caret="343" fromTop="16" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/f:Web.config" caret="1656" fromTop="20" />
+    <File id="F09428AD-F131-4E4C-8D6B-6E0B4D4748E4/d:IBuisnessHelper/f:IClaimHelper.cs" caret="1069" fromTop="17" />
+    <File id="F09428AD-F131-4E4C-8D6B-6E0B4D4748E4/d:BuisnessHelper/f:ClaimHelper.cs" caret="21652" fromTop="19" />
+    <File id="62BBACDD-B034-4019-ADAA-F9839366555E/d:UnitOfWork/f:UnitOfWork.cs" caret="3483" fromTop="13" />
+    <File id="62BBACDD-B034-4019-ADAA-F9839366555E/d:GenericRepository/f:GenericRepository.cs" caret="1092" fromTop="27" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Controllers/f:ClaimsController.cs" caret="2018" fromTop="10" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Shared/f:_LayoutCustomer.cshtml" caret="1409" fromTop="0" />
+    <File id="62BBACDD-B034-4019-ADAA-F9839366555E/d:GenericRepository/f:QueryRepository.cs" caret="263" fromTop="11" />
+    <File id="D6E36C6B-5C95-4994-B5DD-DC0342B8DEC5/d:Dtos/f:ClaimsDto.cs" caret="165" fromTop="4" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Shared/f:_Layout.cshtml" caret="905" fromTop="15" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:AddEditClaim.cshtml" caret="10019" fromTop="0" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="D6E36C6B-5C95-4994-B5DD-DC0342B8DEC5/d:Dtos/f:ClaimsDto.cs" caret="3915" fromTop="19" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:ClaimDetail.cshtml" caret="8858" fromTop="10" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Insurer/f:Index.cshtml" caret="2345" fromTop="15" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/f:Web.config" caret="1134" fromTop="12" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Controllers/f:CustomerController.cs" caret="7048" fromTop="8" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:UploadDocument.cshtml" caret="1793" fromTop="23" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Customer/f:UploadDocumentCustomer.cshtml" caret="1756" fromTop="16" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Shared/f:_Layout.cshtml" caret="3437" fromTop="21" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:_AddClaimPartial.cshtml" caret="4206" fromTop="9" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:User/f:Index.cshtml" caret="1701" fromTop="12" />
+    <File id="D6E36C6B-5C95-4994-B5DD-DC0342B8DEC5/d:Dtos/f:PasswordsDto.cs" caret="352" fromTop="14" />
+    <File id="D6E36C6B-5C95-4994-B5DD-DC0342B8DEC5/d:Dtos/f:UpdateUserMasterDto.cs" caret="1009" fromTop="27" />
+    <File id="D6E36C6B-5C95-4994-B5DD-DC0342B8DEC5/d:Dtos/f:UpdatePasswordDto.cs" caret="258" fromTop="11" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Controllers/f:UserController.cs" caret="2692" fromTop="21" />
+    <File id="F09428AD-F131-4E4C-8D6B-6E0B4D4748E4/d:IBuisnessHelper/f:IUserHelper.cs" caret="558" fromTop="17" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:User/f:EditUser.cshtml" caret="763" fromTop="16" />
+    <File id="F09428AD-F131-4E4C-8D6B-6E0B4D4748E4/d:BuisnessHelper/f:UserHelper.cs" caret="6336" fromTop="16" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:SummayClaim.cshtml" caret="1784" fromTop="18" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Insurer/f:ClaimListForInsurer.cshtml" caret="1663" fromTop="12" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Controllers/f:InsurerController.cs" caret="8126" fromTop="17" />
+    <File id="F09428AD-F131-4E4C-8D6B-6E0B4D4748E4/d:IBuisnessHelper/f:IClaimHelper.cs" caret="2134" fromTop="17" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:Index.cshtml" caret="3670" fromTop="15" />
+    <File id="94CFA766-BAED-4FD1-B9CE-7359BB5A3C7A/d:Log/f:LogWriter.cs" caret="212" fromTop="9" />
+    <File id="E30446D4-5661-4A59-8777-7474EF980481/f:Program.cs" caret="266" fromTop="12" />
+    <File id="F09428AD-F131-4E4C-8D6B-6E0B4D4748E4/d:BuisnessHelper/f:ClaimHelper.cs" caret="9473" fromTop="14" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Views/d:Claims/f:AddEditClaim.cshtml" caret="18592" fromTop="30" />
+    <File id="5716C5B3-49D5-48FE-9242-8CED599787C0/d:Controllers/f:ClaimsController.cs" caret="1924" fromTop="25" />
+    <File id="62BBACDD-B034-4019-ADAA-F9839366555E/d:GenericRepository/f:QueryRepository.cs" caret="858" fromTop="9" />
+  </RecentEdits>
+</RecentFiles>

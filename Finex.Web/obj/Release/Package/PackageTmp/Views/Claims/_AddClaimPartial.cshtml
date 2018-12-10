@@ -1,0 +1,1136 @@
+﻿@model Finex.Dto.Dtos.LossTypeIdDto
+
+<script type="text/javascript">
+    
+    $(function () {
+
+        function getCurrentTime() {
+            alert("in");
+            var CurrentTime = "";
+            try {
+                var CurrentDate = new Date();
+                var CurrentHours = CurrentDate.getHours();
+                var CurrentMinutes = CurrentDate.getMinutes();
+                var CurrentAmPm = "A'M'";
+                if (CurrentMinutes < 10) { CurrentMinutes = "0" + CurrentMinutes; }
+
+                if (CurrentHours == 12) {
+                    CurrentHours = 12;
+                    CurrentAmPm = " P'M'";
+                }
+                else if (CurrentHours == 0) {
+                    CurrentHours = 12;
+                    CurrentAmPm = " A'M'";
+                }
+                else if (CurrentHours > 12) {
+                    CurrentHours = CurrentHours - 12;
+                    CurrentAmPm = " P'M'";
+                }
+                else {
+                    CurrentAmPm = " A'M'";
+                }
+                CurrentTime = "" + CurrentHours + ":" + CurrentMinutes + CurrentAmPm + "";
+            }
+            catch (ex) {
+            }
+            return CurrentTime;
+        }
+
+        $('.dt').datepicker(
+            {
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "-100:+0",
+                //   dateFormat:"mm/dd/yy" + " " +getCurrentTime()
+            }).attr('readonly', 'readonly');
+    });
+</script>
+
+<script type="text/javascript">
+
+    function ActivateSecuredUnSecured() {
+        var securedValue = $("#ddlIsSecuredTransaction").val();
+        if (securedValue == "false") {
+            $("#NoOfUnsecuredTransId").removeAttr("disabled");
+            $("#unsecuredTranssactionAmountId").removeAttr("disabled");
+
+            $("#NoOfSecuredTransId").attr("disabled", "disabled");
+            $("#securedTransactionAmountId").attr("disabled", "disabled");
+
+
+        }
+        else if (securedValue == "true") {
+            $("#NoOfSecuredTransId").removeAttr("disabled");
+            $("#securedTransactionAmountId").removeAttr("disabled");
+
+            $("#NoOfUnsecuredTransId").attr("disabled", "disabled");
+            $("#unsecuredTranssactionAmountId").attr("disabled", "disabled");
+
+            var lossTypeId = $("#ddlLossTypeIdParent").val();
+            var cardTypeId = $("#ddlCardTypeId").val();
+            $.post('@Url.Action("GetPolicyByCardTypeIdAndLossTypeId", "Claims")', { cardTypeId: cardTypeId, lossTypeId: lossTypeId, IsSecured: 1 }, function (result) {
+                var select = $("#ddlPolicyNumberId");
+                select.empty();
+                //select.append($('<option/>', {
+                //    value: "0",
+                //    text: "--Select--"
+                //}));
+                $.each(result, function (index, Data) {
+                    select.append($('<option/>', {
+                        value: Data.Value,
+                        text: Data.Text
+                    }));
+                });
+            });
+        }
+        else {
+            $("#NoOfSecuredTransId").attr("disabled", "disabled");
+            $("#securedTransactionAmountId").attr("disabled", "disabled");
+
+            $("#NoOfUnsecuredTransId").attr("disabled", "disabled");
+            $("#unsecuredTranssactionAmountId").attr("disabled", "disabled");
+        }
+
+}
+
+
+</script>
+
+@switch (Model.LossTypeId)
+{
+    case 4:
+    case 1:
+    case 2:
+    case 3:
+    case 11:
+    case 12:
+    case 13:
+    case 14:
+    case 28:
+    case 35:
+        if (Model.ClaimsDto != null)
+        {
+
+
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+                </label>
+                <input type="text" name="PanNumber" class="form-control" id="PanNumberId" value="@Model.ClaimsDto.PanNumber" />
+                <span id="validatePanNumber" style="color: red"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Loss :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfLoss" onchange="CheckDateOfLoss()" value="@if (Model.ClaimsDto.DateOfLoss != null)
+                                                                                                                 {@Model.ClaimsDto.DateOfLoss.Value.ToShortDateString()}" id='datepicker1'>
+                <span id="validateDateOfLoss" style="color: red"></span>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <div class="row">
+        @* <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/cash.png" class="icons">
+                                Amount of Loss :</label>
+
+                            <input type="text" name="AmountOfLoss" class="form-control" id="AmountOfLossId" value="@Model.ClaimsDto.AmountOfLoss" onkeypress="return AllowOnlyNumeric(event);" />
+                            <span id="validateAmountOfLoss" style="color: red"></span>
+                        </div>
+                    </div>*@
+
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/Clock Filled-15.png" class="icons">
+                    Card Block Date :
+                </label>
+                <input type="text" class="form-control dt" name="CardBlockingDate" onchange="CheckCadBlockingDate()" value="@if (Model.ClaimsDto.CardBlockingDate != null)
+                                                                                                                            {@Model.ClaimsDto.CardBlockingDate.Value.ToShortDateString()}" id='CardBlockingDateId'>
+                <span id="validateCardBlockDate" style="color: red"></span>
+            </div>
+        </div>
+
+    </div>
+
+                                                                                                                            // if (Model.LossTypeId == 1 || Model.LossTypeId == 11 || Model.LossTypeId == 13 || Model.LossTypeId == 2 || Model.LossTypeId == 12 || Model.LossTypeId == 14)
+                                                                                                                            if (Model.LossTypeId == 11 || Model.LossTypeId == 13 || Model.LossTypeId == 12 || Model.LossTypeId == 14 || Model.LossTypeId == 28)
+                                                                                                                            {
+
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    Is there a secured transaction? :
+                </label>
+                <select name="IsSecuredTransaction" class="form-control" id="ddlIsSecuredTransaction" onchange="ActivateSecuredUnSecured()">
+                    <option value="0">--Select--</option>
+                    @if (Model.ClaimsDto.IsSecuredTransaction == true)
+                    {
+                        <option value="true" selected="selected">Yes</option>
+                    }
+                    else
+                    {
+                        <option value="true">Yes</option>
+                    }
+
+                    @if (Model.ClaimsDto.IsSecuredTransaction == false)
+                    {
+                        <option value="false" selected="selected">No</option>
+                    }
+                    else
+                    {
+                        <option value="false">No</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Number of Secured Transaction :
+                </label>
+
+                @if (Model.ClaimsDto.IsSecuredTransaction == true)
+                {
+
+                    <input type="text" name="NoOfSecuredTrans" class="form-control" id="NoOfSecuredTransId" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.NoOfSecuredTrans" />
+                }
+                else
+                {
+                    <input type="text" name="NoOfSecuredTrans" class="form-control" id="NoOfSecuredTransId" disabled="disabled" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.NoOfSecuredTrans" />
+                }
+
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/Clock Filled-15.png" class="icons">
+                    Number of Un Secured Transaction :
+                </label>
+                @if (Model.ClaimsDto.IsSecuredTransaction == false)
+                {
+                    <input type="text" class="form-control" name="NoOfUnsecuredTrans" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.NoOfUnsecuredTrans" id='NoOfUnsecuredTransId'>
+                }
+                else
+                {
+                    <input type="text" class="form-control" name="NoOfUnsecuredTrans" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.NoOfUnsecuredTrans" disabled="disabled" id='NoOfUnsecuredTransId'>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Secured Transaction Amount :
+                </label>
+                @if (Model.ClaimsDto.IsSecuredTransaction == true)
+                {
+
+                    <input type="text" name="SecuredTransactionAmount" id="securedTransactionAmountId" class="form-control" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.SecuredTransactionAmount" />
+                }
+                else
+                {
+                    <input type="text" name="SecuredTransactionAmount" id="securedTransactionAmountId" class="form-control" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.SecuredTransactionAmount" disabled="disabled" />
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Unsecured Transactions Amount :
+                </label>
+                @if (Model.ClaimsDto.IsSecuredTransaction == false)
+                {
+                    <input type="text" class="form-control" name="UnsecuredTranssactionAmount" id="unsecuredTranssactionAmountId" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.UnsecuredTranssactionAmount">
+                }
+                else
+                {
+                    <input type="text" class="form-control" name="UnsecuredTranssactionAmount" id="unsecuredTranssactionAmountId" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.UnsecuredTranssactionAmount" disabled="disabled">
+                }
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Customers Relation with the Bank in terms of Years :
+                </label>
+                <input type="text" name="CustRelBankInYears" class="form-control" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.CustRelBankInYears" />
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Number of Issued Cards for the Account :
+                </label>
+                <input type="text" class="form-control" name="NoOfCardIssueAccount" onkeypress="return AllowOnlyNumeric(event);" value="@Model.ClaimsDto.NoOfCardIssueAccount">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Who blocked the card? :
+                </label>
+                <input type="text" name="WhoBlockCard" class="form-control" value="@Model.ClaimsDto.WhoBlockCard" />
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Relationship with card holder :
+                </label>
+                <input type="text" class="form-control" name="RelBlockCard" value="@Model.ClaimsDto.RelBlockCard">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Did Customer receive any SMS alert for the disputed transaction :
+                </label>
+                <select name="SmsDisputedTranaction" class="form-control">
+                    <option value="NA">--Select--</option>
+                    @if (@Model.ClaimsDto.SmsDisputedTranaction == "Yes")
+                    {
+                        <option value="Yes" selected="selected">Yes</option>
+                    }
+                    else
+                    {
+                        <option value="Yes">Yes</option>
+                    }
+                    @if (@Model.ClaimsDto.SmsDisputedTranaction == "No")
+                    {
+                        <option value="No" selected="selected">No</option>
+                    }
+                    else
+                    {
+                        <option value="No">No</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    How did the customer realise about the misuse of the card?
+                </label>
+                <input type="text" class="form-control" name="RealiseMisuseOfCard" value="@Model.ClaimsDto.RealiseMisuseOfCard">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Where the customer last used his card?
+                </label>
+                <input type="text" class="form-control" name="LastUsedCard" value="@Model.ClaimsDto.LastUsedCard">
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Did customer use his card abroad?
+                </label>
+                <select name="UseCardInAbroad" class="form-control">
+                    <option value="NA">--Select--</option>
+                    @if (@Model.ClaimsDto.UseCardInAbroad == "Yes")
+                    {
+                        <option value="Yes" selected="selected">Yes</option>
+                    }
+                    else
+                    {
+                        <option value="Yes">Yes</option>
+                    }
+                    @if (@Model.ClaimsDto.UseCardInAbroad == "No")
+                    {
+                        <option value="No" selected="selected">No</option>
+                    }
+                    else
+                    {
+                        <option value="No">No</option>
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Where was the customer at time of disputed transaction?
+                </label>
+                <input type="text" class="form-control" name="WhereWasCustAtDisputed" value="@Model.ClaimsDto.WhereWasCustAtDisputed">
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Who is the card with now? And are they the mandate holder?
+                </label>
+                <input type="text" class="form-control" name="CardWithNow" value="@Model.ClaimsDto.CardWithNow">
+            </div>
+        </div>
+    </div>
+
+                                                                                                                            }
+
+        }
+        else
+        {
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+                </label>
+                <input type="text" name="PanNumber" class="form-control" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Loss :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfLoss" onchange="CheckDateOfLoss()" id='datepicker1'>
+                <span id="validateDateOfLoss" style="color: red"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        @* <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/cash.png" class="icons">
+                                Amount of Loss :</label>
+
+                            <input type="text" name="AmountOfLoss" class="form-control" id="AmountOfLossId" onkeypress="return AllowOnlyNumeric(event);" />
+                            <span id="validateAmountOfLoss" style="color: red"></span>
+                        </div>
+                    </div>*@
+
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/Clock Filled-15.png" class="icons">
+                    Card Block Date :
+                </label>
+                <input type="text" class="form-control dt" name="CardBlockingDate" onchange="CheckCadBlockingDate()" id='CardBlockingDateId'>
+                <span id="validateCardBlockDate" style="color: red"></span>
+            </div>
+        </div>
+
+
+    </div>
+
+            // if (Model.LossTypeId == 1 || Model.LossTypeId == 11 || Model.LossTypeId == 13 || Model.LossTypeId == 2 || Model.LossTypeId == 12 || Model.LossTypeId == 14)
+            if (Model.LossTypeId == 11 || Model.LossTypeId == 13 || Model.LossTypeId == 12 || Model.LossTypeId == 14 || Model.LossTypeId == 28)
+            {
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    Is there a secured transaction? :
+                </label>
+                <select name="IsSecuredTransaction" id="ddlIsSecuredTransaction" class="form-control" onchange="ActivateSecuredUnSecured()">
+                    <option value="0">--Select--</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Number of Secured Transaction :
+                </label>
+                <input type="text" name="NoOfSecuredTrans" class="form-control" id="NoOfSecuredTransId" disabled="disabled" onkeypress="return AllowOnlyNumeric(event);" />
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/Clock Filled-15.png" class="icons">
+                    Number of Un Secured Transaction :
+                </label>
+                <input type="text" class="form-control" name="NoOfUnsecuredTrans" disabled="disabled" onkeypress="return AllowOnlyNumeric(event);" id='NoOfUnsecuredTransId'>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Secured Transaction Amount :
+                </label>
+                <input type="text" name="SecuredTransactionAmount" class="form-control" disabled="disabled" id="securedTransactionAmountId" onkeypress="return AllowOnlyNumeric(event);" />
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Unsecured Transactions Amount :
+                </label>
+                <input type="text" class="form-control" name="UnsecuredTranssactionAmount" disabled="disabled" id="unsecuredTranssactionAmountId" onkeypress="return AllowOnlyNumeric(event);">
+            </div>
+        </div>
+    </div>
+
+                
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Customers Relation with the Bank in terms of Years :
+                </label>
+                <input type="text" name="CustRelBankInYears" class="form-control" onkeypress="return AllowOnlyNumeric(event);" />
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Number of Issued Cards for the Account :
+                </label>
+                <input type="text" class="form-control" name="NoOfCardIssueAccount" onkeypress="return AllowOnlyNumeric(event);">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Who blocked the card? :
+                </label>
+                <input type="text" name="WhoBlockCard" class="form-control" />
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Relationship with card holder :
+                </label>
+                <input type="text" class="form-control" name="RelBlockCard">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Did Customer receive any SMS alert for the disputed transaction :
+                </label>
+                <select name="SmsDisputedTranaction" class="form-control">
+                    <option value="NA">--Select--</option>
+
+                    <option value="Yes">Yes</option>
+
+                    <option value="No">No</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    How did the customer realise about the misuse of the card?
+                </label>
+                <input type="text" class="form-control" name="RealiseMisuseOfCard">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Where the customer last used his card?
+                </label>
+                <input type="text" class="form-control" name="LastUsedCard">
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Did customer use his card abroad?
+                </label>
+                <select name="UseCardInAbroad" class="form-control">
+                    <option value="NA">--Select--</option>
+
+                    <option value="Yes">Yes</option>
+
+                    <option value="No">No</option>
+
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Where was the customer at time of disputed transaction?
+                </label>
+                <input type="text" class="form-control" name="WhereWasCustAtDisputed">
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/card.png" class="icons">
+                    Who is the card with now? And are they the mandate holder?
+                </label>
+                <input type="text" class="form-control" name="CardWithNow">
+            </div>
+        </div>
+    </div>
+            }
+        }
+        break;
+    case 5:
+    case 16:
+    case 18:
+    case 20:
+    case 29:
+    case 30:
+    case 31:
+    case 32:
+        if (Model.ClaimsDto != null)
+        {
+    <div class="row">
+        @*   <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/cash.png" class="icons">
+                                Claim Amount :</label>
+
+                            <input type="text" name="AmountOfLoss" class="form-control" id="AmountOfLossId" value="@Model.ClaimsDto.AmountOfLoss" onkeypress="return AllowOnlyNumeric(event);" />
+                            <span id="validateAmountOfLoss" style="color: red"></span>
+                        </div>
+                    </div>*@
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+                </label>
+                <input type="text" name="PanNumber" class="form-control" id="PanNumberId" value="@Model.ClaimsDto.PanNumber" />
+                <span id="validatePanNumber" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of POS :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfPOS" value="@if (Model.ClaimsDto.DateOfPOS != null)
+                                                                                   {
+                                                                                       @Model.ClaimsDto.DateOfPOS.Value.ToShortDateString()
+                                                                                   }" id='DateOfPOSId'>
+                <span id="validateDateOfPOS" style="color: red"></span>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row">
+
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Death :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfDeath" value="@if (Model.ClaimsDto.DateOfDeath != null)
+                                                                                     {
+                                                                                         @Model.ClaimsDto.DateOfDeath.Value.ToShortDateString()
+                                                                                     }" id='DateOfDeathId'>
+                <span id="validateDateOfDeath" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    Label Code :
+                </label>
+                <input type="text" class="form-control" name="LabelCode" value="@Model.ClaimsDto.LabelCode">
+            </div>
+        </div>
+    </div>
+        }
+        else
+        {
+    <div class="row">
+        @* <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/cash.png" class="icons">
+                                Claim Amount :</label>
+
+                            <input type="text" name="AmountOfLoss" class="form-control" id="AmountOfLossId" onkeypress="return AllowOnlyNumeric(event);" />
+                            <span id="validateAmountOfLoss" style="color: red"></span>
+                        </div>
+                    </div>*@
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+                </label>
+                <input type="text" name="PanNumber" class="form-control" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of POS :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfPOS" id='DateOfPOSId'>
+                <span id="validateDateOfPOS" style="color: red"></span>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row">
+
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Death :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfDeath" id='DateOfDeathId'>
+                <span id="validateDateOfDeath" style="color: red"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    Label Code :
+                </label>
+                <input type="text" class="form-control" name="LabelCode">
+            </div>
+        </div>
+
+    </div>
+        }
+
+        break;
+
+    case 6:
+    case 15:
+
+        if (Model.ClaimsDto != null)
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Purchase :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfPuchase" value="@if (Model.ClaimsDto.DateOfPuchase != null)
+                                                                                       {
+                                                                                           @Model.ClaimsDto.DateOfPuchase.Value.ToShortDateString()
+                                                                                       }" id='DateOfPuchaseId'>
+                <span id="validateDateOfPurchase" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Intimation to bank:
+                </label>
+                <input type="text" class="form-control dt" name="DateIntimationBank" value="@if (Model.ClaimsDto.DateIntimationBank != null)
+                                                                                            {@Model.ClaimsDto.DateIntimationBank.Value.ToShortDateString()}" id='DateIntimationBankId'>
+                <span id="validateDateOfIntimation" style="color: red"></span>
+            </div>
+        </div>
+
+
+    </div>
+        }
+        else
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Purchase :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfPuchase" id='DateOfPuchaseId'>
+                <span id="validateDateOfPurchase" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Intimation to bank:
+                </label>
+                <input type="text" class="form-control dt" name="DateIntimationBank" id='DateIntimationBankId'>
+                <span id="validateDateOfIntimation" style="color: red"></span>
+            </div>
+        </div>
+    </div>
+        }
+
+
+        break;
+    case 7:
+    case 9:
+        if (Model.ClaimsDto != null)
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+                </label>
+                <input type="text" name="PanNumber" class="form-control" value="@Model.ClaimsDto.PanNumber" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Loss :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfLoss" onchange="CheckDateOfLoss()" value="@if (Model.ClaimsDto.DateOfLoss != null)
+                                                                                                                 {
+                                                                                        @Model.ClaimsDto.DateOfLoss.Value.ToShortDateString()
+                                                                                                                 }
+                                                                                       " id='datepicker1'>
+                <span id="validateDateOfLoss" style="color: red"></span>
+            </div>
+        </div>
+    </div>
+        }
+        else
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+
+                </label>
+                <input type="text" name="PanNumber" class="form-control" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Loss :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfLoss" id='datepicker1' onchange="CheckDateOfLoss()">
+                <span id="validateDateOfLoss" style="color: red"></span>
+            </div>
+        </div>
+    </div>
+        }
+
+        break;
+    case 8:
+    case 34:
+        if (Model.ClaimsDto != null)
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+
+                </label>
+                <input type="text" name="PanNumber" class="form-control" value="@Model.ClaimsDto.PanNumber" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                @* <label>
+                                <img src="~/Asset/img/cash.png" class="icons">
+                                Claim Amount :</label>
+
+                            <input type="text" name="AmountOfLoss" class="form-control" value="@Model.ClaimsDto.AmountOfLoss" id="AmountOfLossId" onkeypress="return AllowOnlyNumeric(event);" />
+                            <span id="validateAmountOfLoss" style="color: red"></span>*@
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+        }
+        else
+        {
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+
+                </label>
+                <input type="text" name="PanNumber" class="form-control" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                @* <label>
+                                <img src="~/Asset/img/cash.png" class="icons">
+                                Claim Amount :</label>
+
+                            <input type="text" name="AmountOfLoss" class="form-control" id="AmountOfLossId" onkeypress="return AllowOnlyNumeric(event);" />
+                            <span id="validateAmountOfLoss" style="color: red"></span>*@
+            </div>
+        </div>
+
+
+
+
+    </div>
+        }
+
+
+        break;
+    case 10:
+        if (Model.ClaimsDto != null)
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Joining :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfJoining" value="@if (Model.ClaimsDto.DateOfJoining != null)
+                                                                                       {
+                                                                                           @Model.ClaimsDto.DateOfJoining.Value.ToShortDateString()
+                                                                                       }
+                                                                                          " id='DateOfJoiningId'>
+                <span id="validateDateOfJoining" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Leaving :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfLeaving" value="@if (Model.ClaimsDto.DateOfLeaving != null)
+                                                                                       {
+                                                                                           @Model.ClaimsDto.DateOfLeaving.Value.ToShortDateString()
+                                                                                       }
+                                                                                          " id='DateOfLeavingId'>
+                <span id="validateDateOfLeaving" style="color: red"></span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number : 
+
+                </label>
+                <input type="text" name="PanNumber" class="form-control" value="@Model.ClaimsDto.PanNumber" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+
+            </div>
+        </div>
+
+    </div>
+        }
+        else
+        {
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Joining :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfJoining" id='DateOfJoiningId'>
+                <span id="validateDateOfJoining" style="color: red"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label>
+                    <img src="~/Asset/img/calender.png" class="icons">
+                    Date of Leaving :
+                </label>
+                <input type="text" class="form-control dt" name="DateOfLeaving" id='DateOfLeavingId'>
+                <span id="validateDateOfLeaving" style="color: red"></span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <div class="form-group">
+                <label id="lblPANNumber">
+                    <img src="~/Asset/img/card.png" class="icons">
+                    PAN Number :
+                </label>
+                <input type="text" name="PanNumber" class="form-control" id="PanNumberId" />
+                <span id="validatePanNumber" style="color: red"></span>
+
+            </div>
+        </div>
+
+    </div>
+        }
+
+        break;
+}
+
+<script type="text/javascript">
+    //Sandeep
+    var varcardTypeId = $("#ddlCardTypeId").val();
+    if (varcardTypeId == "2") {
+        //$("#ddlIsSecuredTransaction").attr("disabled", "disabled");
+        document.getElementById("ddlIsSecuredTransaction").value = "0";
+        ActivateSecuredUnSecured();
+        document.getElementById("ddlIsSecuredTransaction").disabled = true;
+        document.getElementById("lblPANNumber").innerHTML = '<img src="/Finex/Asset/img/card.png" class="icons"> Passport Number :';
+    }
+    else {
+        document.getElementById("lblPANNumber").innerHTML = '<img src="/Finex/Asset/img/card.png" class="icons"> PAN Number :';
+    }
+    //E Sandeep
+
+</script>

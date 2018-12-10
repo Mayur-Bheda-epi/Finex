@@ -1,0 +1,62 @@
+﻿@model List<Finex.Dto.Dtos.DocumentTypeMasterDto>
+@{
+    ViewBag.Title = "UploadDocumentCustomer";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+@if (Session["SuccessMessage"] != null)
+{
+    <div id="applyMessage" style="display: none">
+        @Convert.ToString(Session["SuccessMessage"])
+    </div>
+    <input type="hidden" value="@Finex.Utility.Encryption.Encrypt(Convert.ToString(ViewBag.hdnCustomer), true)" id="hiddenCustId"/>
+    <script type="text/javascript">
+        alert($("#applyMessage").html());
+        window.location.href = '@Url.Action("Index", "Customer")?id=' + $("#hiddenCustId").val();
+    </script>
+    
+}
+ <script>
+     function SelectSuccess() {
+         alert("Document Selected successfully");
+     }
+    </script>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="login-cntnr">
+            <div class="inner-header pull-left">
+                <h2>Upload Documents</h2>
+
+            </div>
+            @using (Html.BeginForm("UploadDocumentCust", "Customer", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div style="height: 10px;"></div>
+                <input type="hidden" value="@ViewBag.ClaimId" name="hdnClaimId" />
+                <input type="hidden" value="@ViewBag.LossTypeId" name="hdnLossType" />
+                <input type="hidden" value="@ViewBag.CustomerId" name="hdnCustomer" />
+
+                foreach (var uploadDoc in Model)
+                { 
+                <div class="upbtn" style="text-align: left !important;">
+                    <label class="btn btn-primary btn-file finexbutt" style="background-color: #FFC90E !important;border-color: #E2C897 !important;color: black">@uploadDoc.DocumentTypeName<input type="file" name="uploadFiles" onchange="SelectSuccess()"></label>
+                    <input type="hidden" name="hdnDocumentTypeIds" value="@uploadDoc.DocumentTypeId" />
+                </div>
+                <br>
+                }
+                <div style="height: 20px;"></div>
+                <div class="btn-cntnr">
+                    <button class="btn btn-default" type="submit">Submit</button>
+                    &nbsp;
+                <button type="button" class="btn btn-default" onclick="CancelUpload()">Cancel</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    function CancelUpload() {
+        window.location.href = "@Url.Action("Index", "Claims")";
+    }
+
+</script>

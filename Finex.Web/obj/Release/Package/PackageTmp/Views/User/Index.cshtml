@@ -1,0 +1,117 @@
+﻿@model List<Finex.Dto.Dtos.UserMasterDto>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    function EditUser() {
+
+        var checkedCount = 0;
+        var clId = 0;
+        $('#trGv input:checked').each(function () {
+            checkedCount += 1;
+            clId = $(this).val();
+        });
+
+        if (checkedCount == 0) {
+            alert('Please Select one item to edit');
+            return false;
+        }
+        else if (checkedCount > 1) {
+            alert('Please Select one item to edit');
+            return false;
+        }
+
+        else {
+            //alert('you are not authorized to edit');
+            window.location.href = '@Url.Action("EditClaim", "Claims")?clid=' + clId;
+                return true;
+
+            }
+    }
+
+    function DeleteUser() {
+        var checkedCount = 0;
+        $('#trGv input:checked').each(function () {
+            checkedCount += 1;
+        });
+
+        if (checkedCount == 0) {
+            alert('Please select user to delete');
+            return false;
+        }
+
+
+        else {
+            return confirm("Are you sure to delete?");
+        }
+    }
+
+
+
+</script>
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="login-cntnr">
+            <div class="inner-header pull-left" >
+                <h2>User List</h2>
+            </div>
+
+
+
+
+            
+            @using (Html.BeginForm("UserPost", "User", FormMethod.Post))
+            {
+                
+                <div class="btn-cntnr pull-right">
+                    <button class="btn btn-default" name="btnUserPost" value="Delete" onclick="DeleteUser()">Delete</button>
+                    <button class="btn btn-default" name="btnUserPost" value="Edit" onclick="EditUser()">Edit</button>
+                <button class="btn btn-default" type="button" onclick="javascript:window.location.href='@Url.Action("AddUser", "User")';">Add User</button>
+            
+                </div>
+                <br/>
+                  <br/>  <br/>
+                <div class="row table-responsive">
+                <table class="table table-bordered table-striped myborder" id="trGv">
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>Name</th>
+                            <th>User Type</th>
+                            <th>Email</th>
+                            <th>Mobile</th>
+                            <th>User Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model)
+                        {
+                            <tr>
+
+                                <td>
+
+                                    <input type="checkbox"  name="chkUser" value="@user.UserId"/>
+                                </td>
+                                <td>@user.Name  </td>
+                                <td>@user.UserType</td>
+                                <td>@user.Email
+                                </td>
+                                <td>@user.Mobile</td>
+                                <td>@user.UserName</td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                    </div>
+            }
+            <div style="height: 20px;"></div>
+        </div>
+    </div>
+</div>
+<div class="gapper"></div>
+
+

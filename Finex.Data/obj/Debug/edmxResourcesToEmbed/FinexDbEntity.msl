@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FinexAlmondzModelStoreContainer" CdmEntityContainer="FinexAlmondzEntities">
+    <EntitySetMapping Name="CardTypeMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.CardTypeMaster">
+        <MappingFragment StoreEntitySet="CardTypeMaster">
+          <ScalarProperty Name="CardTypeId" ColumnName="CardTypeId" />
+          <ScalarProperty Name="CardTypeName" ColumnName="CardTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Claims">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.Claim">
+        <MappingFragment StoreEntitySet="Claims">
+          <ScalarProperty Name="TransactionTypeId" ColumnName="TransactionTypeId" />
+          <ScalarProperty Name="CurrencyId" ColumnName="CurrencyId" />
+          <ScalarProperty Name="IsSecuredTransaction" ColumnName="IsSecuredTransaction" />
+          <ScalarProperty Name="NiaTransactionNumber" ColumnName="NiaTransactionNumber" />
+          <ScalarProperty Name="ParentLossTypeId" ColumnName="ParentLossTypeId" />
+          <ScalarProperty Name="LabelCode" ColumnName="LabelCode" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DateSinceIntimation" ColumnName="DateSinceIntimation" />
+          <ScalarProperty Name="ApproveRejectComment" ColumnName="ApproveRejectComment" />
+          <ScalarProperty Name="TimeOfReportingBank" ColumnName="TimeOfReportingBank" />
+          <ScalarProperty Name="ClaimAmount" ColumnName="ClaimAmount" />
+          <ScalarProperty Name="DateOfDeath" ColumnName="DateOfDeath" />
+          <ScalarProperty Name="DailyWithdrawalLimit" ColumnName="DailyWithdrawalLimit" />
+          <ScalarProperty Name="FileNo" ColumnName="FileNo" />
+          <ScalarProperty Name="PolicyId" ColumnName="PolicyId" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="UnsecuredTranssactionAmount" ColumnName="UnsecuredTranssactionAmount" />
+          <ScalarProperty Name="SecuredTransactionAmount" ColumnName="SecuredTransactionAmount" />
+          <ScalarProperty Name="UploadDocComment" ColumnName="UploadDocComment" />
+          <ScalarProperty Name="CardWithNow" ColumnName="CardWithNow" />
+          <ScalarProperty Name="WhereWasCustAtDisputed" ColumnName="WhereWasCustAtDisputed" />
+          <ScalarProperty Name="UseCardInAbroad" ColumnName="UseCardInAbroad" />
+          <ScalarProperty Name="LastUsedCard" ColumnName="LastUsedCard" />
+          <ScalarProperty Name="RealiseMisuseOfCard" ColumnName="RealiseMisuseOfCard" />
+          <ScalarProperty Name="SmsDisputedTranaction" ColumnName="SmsDisputedTranaction" />
+          <ScalarProperty Name="RelBlockCard" ColumnName="RelBlockCard" />
+          <ScalarProperty Name="WhoBlockCard" ColumnName="WhoBlockCard" />
+          <ScalarProperty Name="NoOfCardIssueAccount" ColumnName="NoOfCardIssueAccount" />
+          <ScalarProperty Name="CustRelBankInYears" ColumnName="CustRelBankInYears" />
+          <ScalarProperty Name="NoOfUnsecuredTrans" ColumnName="NoOfUnsecuredTrans" />
+          <ScalarProperty Name="NoOfSecuredTrans" ColumnName="NoOfSecuredTrans" />
+          <ScalarProperty Name="DateLossToBank" ColumnName="DateLossToBank" />
+          <ScalarProperty Name="SrNumber" ColumnName="SrNumber" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="PanNumber" ColumnName="PanNumber" />
+          <ScalarProperty Name="DateOfPOS" ColumnName="DateOfPOS" />
+          <ScalarProperty Name="DateOfLeaving" ColumnName="DateOfLeaving" />
+          <ScalarProperty Name="DateOfJoining" ColumnName="DateOfJoining" />
+          <ScalarProperty Name="DateOfPuchase" ColumnName="DateOfPuchase" />
+          <ScalarProperty Name="CardBlockingDate" ColumnName="CardBlockingDate" />
+          <ScalarProperty Name="UpdateUserId" ColumnName="UpdateUserId" />
+          <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+          <ScalarProperty Name="ClaimId" ColumnName="ClaimId" />
+          <ScalarProperty Name="ClaimNumber" ColumnName="ClaimNumber" />
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+          <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="CardTypeId" ColumnName="CardTypeId" />
+          <ScalarProperty Name="DateOfLoss" ColumnName="DateOfLoss" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="MerchantShop" ColumnName="MerchantShop" />
+          <ScalarProperty Name="AmountOfLoss" ColumnName="AmountOfLoss" />
+          <ScalarProperty Name="LossTypeId" ColumnName="LossTypeId" />
+          <ScalarProperty Name="PassportNo" ColumnName="PassportNo" />
+          <ScalarProperty Name="DateIntimationBank" ColumnName="DateIntimationBank" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="PinCode" ColumnName="PinCode" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocumentTypeMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.DocumentTypeMaster">
+        <MappingFragment StoreEntitySet="DocumentTypeMaster">
+          <ScalarProperty Name="LossTypeId" ColumnName="LossTypeId" />
+          <ScalarProperty Name="DocumentTypeId" ColumnName="DocumentTypeId" />
+          <ScalarProperty Name="DocumentTypeName" ColumnName="DocumentTypeName" />
+          <ScalarProperty Name="CardTypeId" ColumnName="CardTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocumentUploads">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.DocumentUpload">
+        <MappingFragment StoreEntitySet="DocumentUploads">
+          <ScalarProperty Name="DateOfUpload" ColumnName="DateOfUpload" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+          <ScalarProperty Name="ClaimId" ColumnName="ClaimId" />
+          <ScalarProperty Name="DocumentTypeId" ColumnName="DocumentTypeId" />
+          <ScalarProperty Name="DocumentPath" ColumnName="DocumentPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LossTypeMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.LossTypeMaster">
+        <MappingFragment StoreEntitySet="LossTypeMaster">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="IsNatureOfLoss" ColumnName="IsNatureOfLoss" />
+          <ScalarProperty Name="ParentLossTypeId" ColumnName="ParentLossTypeId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CardTypeId" ColumnName="CardTypeId" />
+          <ScalarProperty Name="LossTypeId" ColumnName="LossTypeId" />
+          <ScalarProperty Name="LossType" ColumnName="LossType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OTPs">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.OTP">
+        <MappingFragment StoreEntitySet="OTP">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustId" ColumnName="CustId" />
+          <ScalarProperty Name="OTP1" ColumnName="OTP" />
+          <ScalarProperty Name="ExpireTime" ColumnName="ExpireTime" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Passwords">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.Password">
+        <MappingFragment StoreEntitySet="Passwords">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Password1" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.StatusMaster">
+        <MappingFragment StoreEntitySet="StatusMaster">
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.UserMaster">
+        <MappingFragment StoreEntitySet="UserMaster">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypes">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.UserType">
+        <MappingFragment StoreEntitySet="UserTypes">
+          <ScalarProperty Name="UseTypeId" ColumnName="UseTypeId" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CityMastes">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.CityMaste">
+        <MappingFragment StoreEntitySet="CityMaste">
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CountryMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.CountryMaster">
+        <MappingFragment StoreEntitySet="CountryMaster">
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StateMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.StateMaster">
+        <MappingFragment StoreEntitySet="StateMaster">
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PolicyMasters">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.PolicyMaster">
+        <MappingFragment StoreEntitySet="PolicyMaster">
+          <ScalarProperty Name="PolicyType" ColumnName="PolicyType" />
+          <ScalarProperty Name="CardTypeId" ColumnName="CardTypeId" />
+          <ScalarProperty Name="PolicyNumber" ColumnName="PolicyNumber" />
+          <ScalarProperty Name="PolicyId" ColumnName="PolicyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MailTemplates">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.MailTemplate">
+        <MappingFragment StoreEntitySet="MailTemplates">
+          <ScalarProperty Name="TemplateBody" ColumnName="TemplateBody" />
+          <ScalarProperty Name="TemplateName" ColumnName="TemplateName" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="TemplateId" ColumnName="TemplateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClaimReverseFeeds">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.ClaimReverseFeed">
+        <MappingFragment StoreEntitySet="ClaimReverseFeed">
+          <ScalarProperty Name="AccidentDate" ColumnName="AccidentDate" />
+          <ScalarProperty Name="ChequePayementNumber" ColumnName="ChequePayementNumber" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="PayeePartyName" ColumnName="PayeePartyName" />
+          <ScalarProperty Name="PayeePartyCode" ColumnName="PayeePartyCode" />
+          <ScalarProperty Name="PayeeType" ColumnName="PayeeType" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="ApprovedAmount" ColumnName="ApprovedAmount" />
+          <ScalarProperty Name="AssessedAmount" ColumnName="AssessedAmount" />
+          <ScalarProperty Name="FileSubDate" ColumnName="FileSubDate" />
+          <ScalarProperty Name="ClaimEstimatedAmount" ColumnName="ClaimEstimatedAmount" />
+          <ScalarProperty Name="ClaimIntimationDate" ColumnName="ClaimIntimationDate" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="ClaimId" ColumnName="ClaimId" />
+          <ScalarProperty Name="RecordType" ColumnName="RecordType" />
+          <ScalarProperty Name="FeedId" ColumnName="FeedId" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CardLossPolicyMappings">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.CardLossPolicyMapping">
+        <MappingFragment StoreEntitySet="CardLossPolicyMapping">
+          <ScalarProperty Name="IsSecured" ColumnName="IsSecured" />
+          <ScalarProperty Name="PolicyNumberId" ColumnName="PolicyNumberId" />
+          <ScalarProperty Name="LossTypeId" ColumnName="LossTypeId" />
+          <ScalarProperty Name="CardTypeId" ColumnName="CardTypeId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IntimationTransactions">
+      <EntityTypeMapping TypeName="FinexAlmondzModel.IntimationTransaction">
+        <MappingFragment StoreEntitySet="IntimationTransaction">
+          <ScalarProperty Name="ClaimId" ColumnName="ClaimId" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="TypeOfService" ColumnName="TypeOfService" />
+          <ScalarProperty Name="Messgae" ColumnName="Messgae" />
+          <ScalarProperty Name="TransactionNumber" ColumnName="TransactionNumber" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,131 @@
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+D:\tfs\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+D:\tfs\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+D:\tfs\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+D:\tfs\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+D:\tfs\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+D:\tfs\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Buisness.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Buisness.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Data.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Logging.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Data.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Logging.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\bin\Release\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Buisness\obj\Release\Finex.Buisness.pdb

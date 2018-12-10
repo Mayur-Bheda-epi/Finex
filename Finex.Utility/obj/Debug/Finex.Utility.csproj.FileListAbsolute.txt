@@ -1,0 +1,30 @@
+D:\tfs\Finex\Finex.Utility\bin\Debug\Finex.Utility.dll
+D:\tfs\Finex\Finex.Utility\bin\Debug\Finex.Utility.pdb
+D:\tfs\Finex\Finex.Utility\obj\Debug\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\tfs\Finex\Finex.Utility\obj\Debug\Finex.Utility.dll
+D:\tfs\Finex\Finex.Utility\obj\Debug\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\bin\Debug\Finex.Utility.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\bin\Debug\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\obj\Debug\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\obj\Debug\Finex.Utility.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\obj\Debug\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\bin\Debug\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\bin\Debug\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\obj\Debug\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\obj\Debug\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\obj\Debug\Finex.Utility.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Utility\bin\Debug\Finex.Utility.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Utility\bin\Debug\Finex.Utility.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\Working Folder\Others\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Utility\bin\Debug\Finex.Utility.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Utility\bin\Debug\Finex.Utility.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.csprojResolveAssemblyReference.cache
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Utility\bin\Debug\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Utility\bin\Debug\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Utility\obj\Debug\Finex.Utility.pdb

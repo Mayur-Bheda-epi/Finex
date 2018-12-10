@@ -1,0 +1,110 @@
+﻿@model Finex.Dto.Dtos.SummaryDetailDto
+@{
+    ViewBag.Title = "SummayClaim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.SummaryDtos != null && Model.SummaryDtos.Count > 0)
+{
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="login-cntnr">
+                <div class="inner-header pull-left">
+                    <h2>Summary</h2>
+                </div>
+
+                <div class="btn-cntnr pull-right">
+                    <button class="btn btn-default" onclick="javascript:window.location.href = '@Url.Action("Index", "Claims")';">Back</button>
+                </div>
+               <br /><br /><br />
+                <div class="row table-responsive">
+                <table class="table table-bordered table-responsive table-striped myborder">
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Count</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var claim in Model.SummaryDtos)
+                        {
+                            <tr>
+                                <td>@claim.Status</td>
+                                <td>@claim.Count</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                    </div>
+                <div style="height: 20px;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="gapper"></div>
+}
+@if (Model.ClaimsDtos != null && Model.ClaimsDtos.Count > 0)
+{
+   <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="login-cntnr">
+                <div class="inner-header">
+                    <h1>Summary of claims</h1>
+                </div>
+                <table class="table table-bordered table-responsive table-striped myborder">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Loss Type</th>
+                            <th>Card Type</th>
+                            <th>Document Submitted</th>
+                            <th>Document Pending</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var claim in Model.ClaimsDtos)
+                        {
+                            <tr>
+                                <td>@claim.CustomersDto.CustomerName</td>
+                                <td>@claim.LossTypeMasterDto.LossType</td>
+                                <td>@claim.CardTypeMasterDto.CardTypeName</td>
+                                <td>
+                                    <table>
+                                        @foreach (var docDown in claim.DocumentUploadsDtos)
+                                        {
+                                            <tr>
+                                                <td><a href="~/UploadDocuments/@docDown.DocumentPath" target="_blank">@docDown.DocumentTypeName</a> </td>
+                                            </tr>
+                                        }
+                                    </table>
+                                </td>
+                                <td>
+                                    <table>
+                                        @foreach (var docDown in claim.DocumentTypeMasterDtos)
+                                        {
+                                            <tr>
+                                                <td>@docDown.DocumentTypeName</td>
+                                            </tr>
+                                        }
+                                    </table>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                    <tr>
+                        <td colspan="1">
+                            Total:
+                        </td>
+                        <td colspan="4" align="left">
+                            @Model.ClaimsDtos.Count
+                        </td>
+                    </tr>
+                </table>
+                <div style="height: 20px;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="gapper"></div>
+    
+}

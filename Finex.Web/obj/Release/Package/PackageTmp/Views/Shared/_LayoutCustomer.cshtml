@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/date.css">
+    <link rel="stylesheet" type="text/css" href="~/Asset/css/bootstrap-datetimepicker.min.css">
+    <script type="text/javascript" src="~/Asset/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="~/Asset/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Asset/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="~/Asset/js/date.js"></script>
+    <script>
+        function AllowOnlyNumeric(e) {
+
+            if (window.event) // IE 
+            {
+                if (((e.keyCode < 48 || e.keyCode > 57) & e.keyCode != 8) & e.keyCode != 46) {
+                    event.returnValue = false;
+                    return false;
+                }
+            }
+            else { // Fire Fox
+                if (((e.which < 48 || e.which > 57) & e.which != 8) & e.which != 46) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    <div class="body-act">
+ @*       <div style="height: 30px;"></div>*@
+        <div class="header">
+           
+                <img src="~/Asset/img/wtw.png">
+            
+                <div class="btn-cntnr pull-right">
+                 @*   <button class="btn btn-default" onclick="javascript:window.location.href='@Url.Action("Logout", "User")';">Logout</button>*@
+                </div>
+              
+
+
+        </div>
+     @*   <div style="height: 30px;"></div>*@
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+    </div>
+
+</body>
+</html>
+

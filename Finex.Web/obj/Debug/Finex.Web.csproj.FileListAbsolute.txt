@@ -1,0 +1,1011 @@
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Web.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Web.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\EntityFramework.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Buisness.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Dto.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Logging.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Utility.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Net.Http.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Net.Http.Formatting.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Spatial.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Helpers.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Mvc.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Optimization.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Providers.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Razor.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.WebPages.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\WebGrease.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Data.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Buisness.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Dto.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Logging.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Utility.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\EntityFramework.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Net.Http.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Net.Http.Formatting.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Helpers.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Mvc.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Razor.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.WebPages.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\System.Spatial.xml
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Finex.Data.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+C:\Planfirma\Finex (3)\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+D:\tfs\Finex\Finex.Web\bin\Finex.Web.dll
+D:\tfs\Finex\Finex.Web\bin\Finex.Web.pdb
+D:\tfs\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+D:\tfs\Finex\Finex.Web\bin\EntityFramework.dll
+D:\tfs\Finex\Finex.Web\bin\Finex.Buisness.dll
+D:\tfs\Finex\Finex.Web\bin\Finex.Dto.dll
+D:\tfs\Finex\Finex.Web\bin\Finex.Logging.dll
+D:\tfs\Finex\Finex.Web\bin\Finex.Utility.dll
+D:\tfs\Finex\Finex.Web\bin\Ionic.Zip.Reduced.dll
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\tfs\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+D:\tfs\Finex\Finex.Web\bin\System.Net.Http.dll
+D:\tfs\Finex\Finex.Web\bin\System.Net.Http.Formatting.dll
+D:\tfs\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+D:\tfs\Finex\Finex.Web\bin\System.Spatial.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Helpers.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Mvc.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Optimization.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Providers.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.Razor.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.WebPages.dll
+D:\tfs\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+D:\tfs\Finex\Finex.Web\bin\WebGrease.dll
+D:\tfs\Finex\Finex.Web\bin\Finex.Data.dll
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\tfs\Finex\Finex.Web\bin\Finex.Buisness.pdb
+D:\tfs\Finex\Finex.Web\bin\Finex.Dto.pdb
+D:\tfs\Finex\Finex.Web\bin\Finex.Logging.pdb
+D:\tfs\Finex\Finex.Web\bin\Finex.Utility.pdb
+D:\tfs\Finex\Finex.Web\bin\EntityFramework.xml
+D:\tfs\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+D:\tfs\Finex\Finex.Web\bin\System.Net.Http.xml
+D:\tfs\Finex\Finex.Web\bin\System.Net.Http.Formatting.xml
+D:\tfs\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.Helpers.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.Mvc.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.Razor.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.WebPages.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+D:\tfs\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+D:\tfs\Finex\Finex.Web\bin\System.Spatial.xml
+D:\tfs\Finex\Finex.Web\bin\Finex.Data.pdb
+D:\tfs\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\tfs\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\tfs\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\tfs\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\tfs\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+D:\tfs\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+D:\tfs\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Web.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Web.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\EntityFramework.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Dto.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Logging.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Utility.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Net.Http.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Net.Http.Formatting.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Spatial.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Helpers.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Mvc.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Optimization.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Providers.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Razor.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.WebPages.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\WebGrease.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Data.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\EntityFramework.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Net.Http.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Net.Http.Formatting.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Helpers.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Mvc.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Razor.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.WebPages.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\System.Spatial.xml
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Data.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Web\bin\Finex.Web.dll.config
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Web.dll.config
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Web.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Web.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\EntityFramework.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Logging.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Utility.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Net.Http.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Net.Http.Formatting.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Spatial.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Helpers.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Mvc.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Optimization.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Providers.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Razor.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.WebPages.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\WebGrease.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Data.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\EntityFramework.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Net.Http.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Net.Http.Formatting.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Helpers.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Mvc.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Razor.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.WebPages.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\System.Spatial.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Finex.Data.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Web\bin\itextsharp.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Web.dll.config
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Web.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Web.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\EntityFramework.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Buisness.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Logging.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Utility.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\itextsharp.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Net.Http.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Net.Http.Formatting.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Spatial.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Helpers.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Mvc.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Optimization.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Providers.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Razor.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.WebPages.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\WebGrease.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Data.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Buisness.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\EntityFramework.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Net.Http.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Net.Http.Formatting.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Helpers.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Mvc.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Razor.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.WebPages.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\System.Spatial.xml
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Finex.Data.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ClosedXML.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\DocumentFormat.OpenXml.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Web\bin\ClosedXML.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Web.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Web.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\EntityFramework.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Buisness.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Net.Http.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Spatial.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Helpers.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Mvc.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Optimization.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Providers.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Razor.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.WebPages.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\WebGrease.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Data.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Buisness.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\EntityFramework.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Net.Http.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Helpers.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Mvc.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Razor.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.WebPages.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Spatial.xml
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\Finex.Data.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Web.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Web.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\EntityFramework.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Dto.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Logging.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Utility.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Net.Http.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Spatial.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Optimization.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Providers.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\WebGrease.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Data.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Dto.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Logging.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Utility.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\EntityFramework.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Net.Http.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\System.Spatial.xml
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\Finex.Data.pdb
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+D:\Working Folder\Others\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Web.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Web.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\EntityFramework.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Dto.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Logging.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Utility.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Net.Http.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Spatial.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Optimization.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Providers.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\WebGrease.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Data.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Dto.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Logging.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Utility.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\EntityFramework.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Net.Http.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\System.Spatial.xml
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\Finex.Data.pdb
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+C:\Users\EBITteam2\Desktop\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Web.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Web.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\EntityFramework.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Net.Http.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Spatial.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Optimization.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Providers.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\WebGrease.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Data.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\EntityFramework.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Net.Http.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\System.Spatial.xml
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\Finex.Data.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Web.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Web.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Logging.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Spatial.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Optimization.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Providers.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\WebGrease.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Data.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Logging.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Spatial.xml
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Data.pdb
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+C:\Users\Lenovo\Desktop\Finex_2 (1)\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Web.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Web.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Logging.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Spatial.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Optimization.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Providers.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\WebGrease.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Data.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Buisness.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Logging.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.Tracing.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Web.Http.OData.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.Edm.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Microsoft.Data.OData.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\System.Spatial.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\Finex.Data.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\de\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\es\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\fr\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\it\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ja\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ko\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\ru\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Web\obj\Debug\Finex.Web.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Web.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Web.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Buisness.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Logging.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Microsoft.Data.Edm.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Microsoft.Data.OData.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Net.Http.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Spatial.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Http.OData.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Http.Tracing.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Optimization.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Providers.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.WebPages.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\WebGrease.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Data.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Buisness.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Logging.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Net.Http.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.WebPages.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Http.Tracing.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Web.Http.OData.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Microsoft.Data.Edm.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Microsoft.Data.OData.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\System.Spatial.xml
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\Finex.Data.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\de\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\es\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\fr\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\it\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ja\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ko\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\ru\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\obj\Debug\Finex.Web.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\obj\Debug\Finex.Web.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex - Copy Before adding two new tables\Finex.Web\obj\Debug\Finex.Web.pdb

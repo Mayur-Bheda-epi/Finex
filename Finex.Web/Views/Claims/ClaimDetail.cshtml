@@ -1,0 +1,423 @@
+﻿@model Finex.Dto.Dtos.ClaimsDto
+@{
+    ViewBag.Title = "ClaimDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+        <br />
+    
+        <div class="login-cntnr">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="inner-header pull-left">
+                <h2>Claim Details</h2>
+            </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="btn-cntnr pull-right">
+            <button class="btn btn-default" onclick="javascript:window.location.href = '@Url.Action("Index", "Claims")';">Back</button>
+        </div></div>
+            </div>
+            
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/card.png" class="icons">
+                            Card Number* :
+                        </label>
+                        <p>@Model.CardNo</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/card.png" class="icons">
+                            Type of Card* :
+                        </label>
+                        <p id="CardTypeName">@Model.CardTypeMasterDto.CardTypeName</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/card.png" class="icons">
+                            Account Number* :
+                        </label>
+                        <p>@Model.AccountNumber</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/card.png" class="icons">
+                            Policy Number* :
+                        </label>
+                        <p>@Model.PolicyMasterDto.PolicyNumber</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/user.png" class="icons">
+                            Name of the Card Holder* :
+                        </label>
+                        <p>@Model.CustomersDto.CustomerName</p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/loss.png" class="icons">
+                            Type of Loss :
+                        </label>
+                        <p>@Model.LossTypeMasterParentDto.LossType</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/loss.png" class="icons">
+                            Nature of Loss :
+                        </label>
+                        <p>@Model.LossTypeMasterDto.LossType</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/location.png" class="icons">
+                            Place of Loss* :
+                        </label>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <p>@Model.CountryName</p>
+
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p>@Model.StateName</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <p>@Model.CityName</p>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <p>@Model.MerchantShop</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/email.png" class="icons">
+                            Address :
+                        </label>
+
+
+                        <p>@Model.CustomersDto.Address</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/email.png" class="icons">
+                            Email* :
+                        </label>
+
+
+                        <p>@Model.CustomersDto.EmailId</p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/phone.png" class="icons">
+                            Mobile Number* :
+                        </label>
+                        <p>@Model.CustomersDto.MobileNumber</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/user.png" class="icons">
+                            Date of Reporting Loss to Bank* :
+                        </label>
+                        <p>@Model.DateLossToBank.ToString("dd-MMM-yy")</p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/loss.png" class="icons">
+                            Time of reporting Bank :
+                        </label>
+                        <p>@Model.TimeOfReportingBank</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/loss.png" class="icons">
+                            Axis Oneview SR Number :
+                        </label>
+                        <p>@Model.SrNumber</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/loss.png" class="icons">
+                            Claim Amount:
+                        </label>
+                        <p>@Model.ClaimAmount</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/loss.png" class="icons">
+                            Date Since Intimation :
+                        </label>
+                        <p>
+                            @if (Model.DateSinceIntimation != null)
+                            {
+                                @Model.DateSinceIntimation.Value.ToString("dd-MMM-yy")
+                            }
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    @* <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/loss.png" class="icons">
+                                Claim Amount:</label>
+                            <p>@Model.ClaimAmount</p>
+                        </div>*@
+                </div>
+            </div>
+
+
+
+            @Html.Partial("_ClaimPartialView", Model)
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label>
+                            <img src="~/Asset/img/user.png" class="icons">
+                            Comment :
+                        </label>
+                        <p>@Model.Comment</p>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="login-cntnr">
+                        <div class="inner-header">
+                            <h5>Uploaded Document </h5>
+                        </div>
+
+                        <div class="btn-cntnr pull-right">
+
+                            @if (Convert.ToInt32(Session["UserTypeId"]) != 4)
+                            {
+                                <a href="@Url.Action("GetUploadDocument", "Claims")?clid=@Finex.Utility.Encryption.Encrypt(Convert.ToString(Model.ClaimId), true)&ltId=@Finex.Utility.Encryption.Encrypt(Convert.ToString(Model.LossTypeId), true)&csId=@Finex.Utility.Encryption.Encrypt(Convert.ToString(Model.CustId), true)&i=r"> <button class="btn btn-default">Upload Document</button></a>
+                            }
+
+
+                            @using (Html.BeginForm("DownloadZip", "Claims"))
+                            {
+                                <input type="hidden" name="hdnClmIdDownloadZip" value="@Model.ClaimId" />
+                                <div class="btn-cntnr pull-right">
+                                    <button class="btn btn-default" type="submit">Download zip</button>
+                                </div>
+                            }
+                        </div>
+                        <div class ="row table-responsive">
+                        <table class="table table-bordered table-striped myborder">
+                            <thead>
+                                <tr>
+                                    <th>Document Name</th>
+                                    <th>Download</th>
+                                    <th>Upload Date</th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var docDown in Model.DocumentUploadsDtos)
+                                {
+                                    <tr>
+                                        <td>@docDown.DocumentTypeName</td>
+                                        <td><a href="~/UploadDocuments/@docDown.DocumentPath" target="_blank">Click here to view or download</a> </td>
+                                        <td>
+                                            @if (docDown.DocumentUploadDate != null)
+                                            {
+                                                @docDown.DocumentUploadDate.Value.ToString("dd-MMM-yy")
+                                            }
+
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                            </div>
+                        <div style="height: 20px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="login-cntnr">
+                        <div class="inner-header">
+                            <h5>Pending Document to upload </h5>
+                        </div>
+                        <table class="table table-bordered table-striped myborder">
+                            <thead>
+                                <tr>
+                                    <th>Document Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var docDown in Model.DocumentTypeMasterDtos)
+                                {
+                                    <tr>
+                                        <td>@docDown.DocumentTypeName</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div style="height: 20px;"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="login-cntnr">
+                        <div class="inner-header">
+                            <h5>Reverse feed data </h5>
+                        </div>
+                        <table class="table table-bordered table-striped myborder">
+                            <thead>
+                                <tr>
+                                    <th>Invoice</th>
+                                    <th>Paid Amt</th>
+                                    <th>Payment Date</th>
+                                    <th>Mode</th>
+                                    <th>Party Code</th>
+                                    <th>Payment Number</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var reverse in Model.ClaimReverseFeedDtoList)
+                                {
+                                    <tr>
+                                        <td>@reverse.INVOICENUMBER</td>
+                                        <td>@reverse.PAIDAMOUNT</td>
+                                        <td>@reverse.PAYMENTDATE.ToString("dd-MMM-yyyy")</td>
+                                        <td>@reverse.PAYMENTMODE</td>
+                                        <td>@reverse.PAYEEPARTYCODE</td>
+                                        <td>@reverse.CHEQUEORPAYMENTNO</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div style="height: 20px;"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div style="height: 20px;"></div>
+
+
+        </div>
+    </div>
+</div>
+<div class="gapper"></div>
+
+
+<script type="text/javascript">
+    //Sandeep
+    debugger;
+    var varcardTypeId = $("#CardTypeName").html();
+    if (varcardTypeId == "Travel Card") {
+        ////$("#ddlIsSecuredTransaction").attr("disabled", "disabled");
+        //document.getElementById("ddlIsSecuredTransaction").value = "0";
+        //ActivateSecuredUnSecured();
+        //document.getElementById("ddlIsSecuredTransaction").disabled = true;
+        document.getElementById("lblPANNumber").innerHTML = '<img src="/Finex/Asset/img/card.png" class="icons"> Passport Number :';
+    }
+    else {
+        document.getElementById("lblPANNumber").innerHTML = '<img src="/Finex/Asset/img/card.png" class="icons"> PAN Number :';
+    }
+    //E Sandeep
+
+</script>

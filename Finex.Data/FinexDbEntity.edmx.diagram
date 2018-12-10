@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4969b891d3284434b330c7586fae5512" Name="Diagram1">
+        <EntityTypeShape EntityType="FinexAlmondzModel.CardTypeMaster" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.Claim" Width="2" PointX="7.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.Customer" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.DocumentTypeMaster" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.DocumentUpload" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.LossTypeMaster" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.OTP" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.Password" Width="1.5" PointX="12.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.StatusMaster" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.UserMaster" Width="1.5" PointX="10" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.UserType" Width="1.5" PointX="7.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_CardTypeMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_DocumentTypeMaster_CardTypeMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_LossTypeMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_StatusMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_DocumentUploads_Claims" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_DocumentUploads_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_OTP_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_DocumentUploads_DocumentTypeMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Passwords_UserMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_UserMaster_UserTypes" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.CityMaste" Width="1.5" PointX="5.5912642560858581" PointY="16.249026648816198" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.CountryMaster" Width="1.5" PointX="3.817192874763716" PointY="23.970008697346788" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.StateMaster" Width="1.5" PointX="2.9245619843362656" PointY="25.908529472494745" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_CityMaste_StateMaster" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_StateMaster_CountryMaster" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_CityMaste" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_CountryMaster" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.PolicyMaster" Width="1.5" PointX="5.2700712519092816" PointY="6.9737232955981616" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_PolicyMaster_CardTypeMaster" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_PolicyMaster" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.MailTemplate" Width="1.5" PointX="6.9505319013029947" PointY="24.944773938946785" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.ClaimReverseFeed" Width="1.5" PointX="10.375" PointY="6.75" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_Claims_LossTypeMasterParent" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.CardLossPolicyMapping" Width="1.5" PointX="10.5" PointY="12.75" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_CardLossPolicyMapping_LossTypeMaster" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_CardLossPolicyMapping_PolicyMaster" />
+        <EntityTypeShape EntityType="FinexAlmondzModel.IntimationTransaction" Width="1.5" PointX="5.375" PointY="0.75" />
+        <AssociationConnector Association="FinexAlmondzModel.FK_ClaimReverseFeed_Claims" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

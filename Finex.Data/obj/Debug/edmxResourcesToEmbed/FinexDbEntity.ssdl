@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinexAlmondzModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="FinexAlmondzModelStoreContainer">
+    <EntitySet Name="CardLossPolicyMapping" EntityType="FinexAlmondzModel.Store.CardLossPolicyMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CardTypeMaster" EntityType="FinexAlmondzModel.Store.CardTypeMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CityMaste" EntityType="FinexAlmondzModel.Store.CityMaste" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ClaimReverseFeed" EntityType="FinexAlmondzModel.Store.ClaimReverseFeed" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Claims" EntityType="FinexAlmondzModel.Store.Claims" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CountryMaster" EntityType="FinexAlmondzModel.Store.CountryMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Customers" EntityType="FinexAlmondzModel.Store.Customers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DocumentTypeMaster" EntityType="FinexAlmondzModel.Store.DocumentTypeMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DocumentUploads" EntityType="FinexAlmondzModel.Store.DocumentUploads" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="IntimationTransaction" EntityType="FinexAlmondzModel.Store.IntimationTransaction" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LossTypeMaster" EntityType="FinexAlmondzModel.Store.LossTypeMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MailTemplates" EntityType="FinexAlmondzModel.Store.MailTemplates" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OTP" EntityType="FinexAlmondzModel.Store.OTP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Passwords" EntityType="FinexAlmondzModel.Store.Passwords" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PolicyMaster" EntityType="FinexAlmondzModel.Store.PolicyMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StateMaster" EntityType="FinexAlmondzModel.Store.StateMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StatusMaster" EntityType="FinexAlmondzModel.Store.StatusMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserMaster" EntityType="FinexAlmondzModel.Store.UserMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserTypes" EntityType="FinexAlmondzModel.Store.UserTypes" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_CardLossPolicyMapping_LossTypeMaster" Association="FinexAlmondzModel.Store.FK_CardLossPolicyMapping_LossTypeMaster">
+      <End Role="LossTypeMaster" EntitySet="LossTypeMaster" />
+      <End Role="CardLossPolicyMapping" EntitySet="CardLossPolicyMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CardLossPolicyMapping_PolicyMaster" Association="FinexAlmondzModel.Store.FK_CardLossPolicyMapping_PolicyMaster">
+      <End Role="PolicyMaster" EntitySet="PolicyMaster" />
+      <End Role="CardLossPolicyMapping" EntitySet="CardLossPolicyMapping" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CityMaste_StateMaster" Association="FinexAlmondzModel.Store.FK_CityMaste_StateMaster">
+      <End Role="StateMaster" EntitySet="StateMaster" />
+      <End Role="CityMaste" EntitySet="CityMaste" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClaimReverseFeed_Claims" Association="FinexAlmondzModel.Store.FK_ClaimReverseFeed_Claims">
+      <End Role="Claims" EntitySet="Claims" />
+      <End Role="ClaimReverseFeed" EntitySet="ClaimReverseFeed" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_CardTypeMaster" Association="FinexAlmondzModel.Store.FK_Claims_CardTypeMaster">
+      <End Role="CardTypeMaster" EntitySet="CardTypeMaster" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_CityMaste" Association="FinexAlmondzModel.Store.FK_Claims_CityMaste">
+      <End Role="CityMaste" EntitySet="CityMaste" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_CountryMaster" Association="FinexAlmondzModel.Store.FK_Claims_CountryMaster">
+      <End Role="CountryMaster" EntitySet="CountryMaster" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_Customers" Association="FinexAlmondzModel.Store.FK_Claims_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_LossTypeMaster" Association="FinexAlmondzModel.Store.FK_Claims_LossTypeMaster">
+      <End Role="LossTypeMaster" EntitySet="LossTypeMaster" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_LossTypeMasterParent" Association="FinexAlmondzModel.Store.FK_Claims_LossTypeMasterParent">
+      <End Role="LossTypeMaster" EntitySet="LossTypeMaster" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_PolicyMaster" Association="FinexAlmondzModel.Store.FK_Claims_PolicyMaster">
+      <End Role="PolicyMaster" EntitySet="PolicyMaster" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Claims_StatusMaster" Association="FinexAlmondzModel.Store.FK_Claims_StatusMaster">
+      <End Role="StatusMaster" EntitySet="StatusMaster" />
+      <End Role="Claims" EntitySet="Claims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentTypeMaster_CardTypeMaster" Association="FinexAlmondzModel.Store.FK_DocumentTypeMaster_CardTypeMaster">
+      <End Role="CardTypeMaster" EntitySet="CardTypeMaster" />
+      <End Role="DocumentTypeMaster" EntitySet="DocumentTypeMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentUploads_Claims" Association="FinexAlmondzModel.Store.FK_DocumentUploads_Claims">
+      <End Role="Claims" EntitySet="Claims" />
+      <End Role="DocumentUploads" EntitySet="DocumentUploads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentUploads_Customers" Association="FinexAlmondzModel.Store.FK_DocumentUploads_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="DocumentUploads" EntitySet="DocumentUploads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DocumentUploads_DocumentTypeMaster" Association="FinexAlmondzModel.Store.FK_DocumentUploads_DocumentTypeMaster">
+      <End Role="DocumentTypeMaster" EntitySet="DocumentTypeMaster" />
+      <End Role="DocumentUploads" EntitySet="DocumentUploads" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OTP_Customers" Association="FinexAlmondzModel.Store.FK_OTP_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="OTP" EntitySet="OTP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Passwords_UserMaster" Association="FinexAlmondzModel.Store.FK_Passwords_UserMaster">
+      <End Role="UserMaster" EntitySet="UserMaster" />
+      <End Role="Passwords" EntitySet="Passwords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PolicyMaster_CardTypeMaster" Association="FinexAlmondzModel.Store.FK_PolicyMaster_CardTypeMaster">
+      <End Role="CardTypeMaster" EntitySet="CardTypeMaster" />
+      <End Role="PolicyMaster" EntitySet="PolicyMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StateMaster_CountryMaster" Association="FinexAlmondzModel.Store.FK_StateMaster_CountryMaster">
+      <End Role="CountryMaster" EntitySet="CountryMaster" />
+      <End Role="StateMaster" EntitySet="StateMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserMaster_UserTypes" Association="FinexAlmondzModel.Store.FK_UserMaster_UserTypes">
+      <End Role="UserTypes" EntitySet="UserTypes" />
+      <End Role="UserMaster" EntitySet="UserMaster" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CardLossPolicyMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="CardTypeId" Type="int" />
+    <Property Name="LossTypeId" Type="int" />
+    <Property Name="PolicyNumberId" Type="int" />
+    <Property Name="IsSecured" Type="bit" />
+  </EntityType>
+  <EntityType Name="CardTypeMaster">
+    <Key>
+      <PropertyRef Name="CardTypeId" />
+    </Key>
+    <Property Name="CardTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CardTypeName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CityMaste">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="CityId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CityName" Type="nvarchar" MaxLength="100" />
+    <Property Name="StateId" Type="int" />
+  </EntityType>
+  <EntityType Name="ClaimReverseFeed">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Company" Type="nvarchar(max)" />
+    <Property Name="FeedId" Type="nvarchar" MaxLength="200" />
+    <Property Name="RecordType" Type="nvarchar" MaxLength="50" />
+    <Property Name="ClaimId" Type="int" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="100" />
+    <Property Name="ClaimIntimationDate" Type="datetime" />
+    <Property Name="ClaimEstimatedAmount" Type="decimal" Scale="2" />
+    <Property Name="FileSubDate" Type="datetime" />
+    <Property Name="AssessedAmount" Type="decimal" Scale="2" />
+    <Property Name="ApprovedAmount" Type="decimal" Scale="2" />
+    <Property Name="PaidAmount" Type="decimal" Scale="2" />
+    <Property Name="PaymentDate" Type="datetime" />
+    <Property Name="PaymentMode" Type="nvarchar" MaxLength="50" />
+    <Property Name="PayeeType" Type="nvarchar" MaxLength="50" />
+    <Property Name="PayeePartyCode" Type="nvarchar" MaxLength="200" />
+    <Property Name="PayeePartyName" Type="nvarchar(max)" />
+    <Property Name="InvoiceNumber" Type="nvarchar" MaxLength="100" />
+    <Property Name="ChequePayementNumber" Type="nvarchar" MaxLength="100" />
+    <Property Name="AccidentDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Claims">
+    <Key>
+      <PropertyRef Name="ClaimId" />
+    </Key>
+    <Property Name="ClaimId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClaimNumber" Type="nvarchar" MaxLength="70" />
+    <Property Name="CustId" Type="int" />
+    <Property Name="CardNo" Type="nvarchar" MaxLength="70" />
+    <Property Name="CardTypeId" Type="int" />
+    <Property Name="DateOfLoss" Type="datetime" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="CityId" Type="int" />
+    <Property Name="MerchantShop" Type="nvarchar" MaxLength="250" />
+    <Property Name="AmountOfLoss" Type="decimal" Scale="2" />
+    <Property Name="LossTypeId" Type="int" />
+    <Property Name="PassportNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateIntimationBank" Type="datetime" />
+    <Property Name="StatusId" Type="int" />
+    <Property Name="CardBlockingDate" Type="datetime" />
+    <Property Name="DateOfPuchase" Type="datetime" />
+    <Property Name="DateOfJoining" Type="datetime" />
+    <Property Name="DateOfLeaving" Type="datetime" />
+    <Property Name="DateOfPOS" Type="datetime" />
+    <Property Name="PanNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="Comment" Type="nvarchar(max)" />
+    <Property Name="SrNumber" Type="nvarchar" MaxLength="80" />
+    <Property Name="DateLossToBank" Type="datetime" />
+    <Property Name="NoOfSecuredTrans" Type="int" />
+    <Property Name="NoOfUnsecuredTrans" Type="int" />
+    <Property Name="CustRelBankInYears" Type="decimal" Scale="2" />
+    <Property Name="NoOfCardIssueAccount" Type="int" />
+    <Property Name="WhoBlockCard" Type="nvarchar" MaxLength="100" />
+    <Property Name="RelBlockCard" Type="nvarchar" MaxLength="100" />
+    <Property Name="SmsDisputedTranaction" Type="nvarchar" MaxLength="10" />
+    <Property Name="RealiseMisuseOfCard" Type="nvarchar" MaxLength="200" />
+    <Property Name="LastUsedCard" Type="nvarchar" MaxLength="100" />
+    <Property Name="UseCardInAbroad" Type="nvarchar" MaxLength="100" />
+    <Property Name="WhereWasCustAtDisputed" Type="nvarchar" MaxLength="200" />
+    <Property Name="CardWithNow" Type="nvarchar" MaxLength="100" />
+    <Property Name="UploadDocComment" Type="nvarchar(max)" />
+    <Property Name="SecuredTransactionAmount" Type="decimal" Scale="2" />
+    <Property Name="UnsecuredTranssactionAmount" Type="decimal" Scale="2" />
+    <Property Name="AccountNumber" Type="nvarchar" MaxLength="60" />
+    <Property Name="PolicyId" Type="int" />
+    <Property Name="FileNo" Type="nvarchar" MaxLength="100" />
+    <Property Name="DailyWithdrawalLimit" Type="decimal" Scale="2" />
+    <Property Name="DateOfDeath" Type="datetime" />
+    <Property Name="ClaimAmount" Type="decimal" Scale="2" />
+    <Property Name="TimeOfReportingBank" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApproveRejectComment" Type="nvarchar" MaxLength="500" />
+    <Property Name="DateSinceIntimation" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="CreateUserId" Type="int" />
+    <Property Name="UpdateUserId" Type="int" />
+    <Property Name="LabelCode" Type="nvarchar(max)" />
+    <Property Name="ParentLossTypeId" Type="int" />
+    <Property Name="NiaTransactionNumber" Type="nvarchar(max)" />
+    <Property Name="IsSecuredTransaction" Type="bit" />
+    <Property Name="CurrencyId" Type="int" />
+    <Property Name="TransactionTypeId" Type="int" />
+  </EntityType>
+  <EntityType Name="CountryMaster">
+    <Key>
+      <PropertyRef Name="CountryId" />
+    </Key>
+    <Property Name="CountryId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CountryName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustId" />
+    </Key>
+    <Property Name="CustId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+    <Property Name="MobileNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateBy" Type="int" />
+    <Property Name="UpdateDate" Type="datetime" />
+    <Property Name="UpdateBy" Type="int" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="PinCode" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DocumentTypeMaster">
+    <Key>
+      <PropertyRef Name="DocumentTypeId" />
+    </Key>
+    <Property Name="DocumentTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DocumentTypeName" Type="nvarchar" MaxLength="200" />
+    <Property Name="CardTypeId" Type="int" />
+    <Property Name="LossTypeId" Type="int" />
+  </EntityType>
+  <EntityType Name="DocumentUploads">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustId" Type="int" />
+    <Property Name="ClaimId" Type="int" />
+    <Property Name="DocumentTypeId" Type="int" />
+    <Property Name="DocumentPath" Type="nvarchar" MaxLength="250" />
+    <Property Name="DateOfUpload" Type="datetime" />
+  </EntityType>
+  <EntityType Name="IntimationTransaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TransactionNumber" Type="nvarchar" MaxLength="100" />
+    <Property Name="Messgae" Type="nvarchar(max)" />
+    <Property Name="TypeOfService" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ClaimId" Type="int" />
+  </EntityType>
+  <EntityType Name="LossTypeMaster">
+    <Key>
+      <PropertyRef Name="LossTypeId" />
+    </Key>
+    <Property Name="LossTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LossType" Type="nvarchar" MaxLength="70" />
+    <Property Name="CardTypeId" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="ParentLossTypeId" Type="int" />
+    <Property Name="IsNatureOfLoss" Type="bit" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MailTemplates">
+    <Key>
+      <PropertyRef Name="TemplateId" />
+    </Key>
+    <Property Name="TemplateId" Type="int" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar(max)" />
+    <Property Name="TemplateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="TemplateBody" Type="text" />
+  </EntityType>
+  <EntityType Name="OTP">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustId" Type="int" />
+    <Property Name="OTP" Type="nvarchar" MaxLength="50" />
+    <Property Name="ExpireTime" Type="datetime" />
+    <Property Name="IsUsed" Type="bit" />
+  </EntityType>
+  <EntityType Name="Passwords">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="PolicyMaster">
+    <Key>
+      <PropertyRef Name="PolicyId" />
+    </Key>
+    <Property Name="PolicyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PolicyNumber" Type="nvarchar" MaxLength="100" />
+    <Property Name="CardTypeId" Type="int" />
+    <Property Name="PolicyType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="StateMaster">
+    <Key>
+      <PropertyRef Name="StateId" />
+    </Key>
+    <Property Name="StateId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StateName" Type="nvarchar" MaxLength="80" />
+    <Property Name="CountryId" Type="int" />
+  </EntityType>
+  <EntityType Name="StatusMaster">
+    <Key>
+      <PropertyRef Name="StatusId" />
+    </Key>
+    <Property Name="StatusId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StatusName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UserMaster">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserTypeId" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="UpdateDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserTypes">
+    <Key>
+      <PropertyRef Name="UseTypeId" />
+    </Key>
+    <Property Name="UseTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_CardLossPolicyMapping_LossTypeMaster">
+    <End Role="LossTypeMaster" Type="FinexAlmondzModel.Store.LossTypeMaster" Multiplicity="0..1" />
+    <End Role="CardLossPolicyMapping" Type="FinexAlmondzModel.Store.CardLossPolicyMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LossTypeMaster">
+        <PropertyRef Name="LossTypeId" />
+      </Principal>
+      <Dependent Role="CardLossPolicyMapping">
+        <PropertyRef Name="LossTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CardLossPolicyMapping_PolicyMaster">
+    <End Role="PolicyMaster" Type="FinexAlmondzModel.Store.PolicyMaster" Multiplicity="0..1" />
+    <End Role="CardLossPolicyMapping" Type="FinexAlmondzModel.Store.CardLossPolicyMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PolicyMaster">
+        <PropertyRef Name="PolicyId" />
+      </Principal>
+      <Dependent Role="CardLossPolicyMapping">
+        <PropertyRef Name="PolicyNumberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CityMaste_StateMaster">
+    <End Role="StateMaster" Type="FinexAlmondzModel.Store.StateMaster" Multiplicity="0..1" />
+    <End Role="CityMaste" Type="FinexAlmondzModel.Store.CityMaste" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StateMaster">
+        <PropertyRef Name="StateId" />
+      </Principal>
+      <Dependent Role="CityMaste">
+        <PropertyRef Name="StateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClaimReverseFeed_Claims">
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="0..1" />
+    <End Role="ClaimReverseFeed" Type="FinexAlmondzModel.Store.ClaimReverseFeed" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Claims">
+        <PropertyRef Name="ClaimId" />
+      </Principal>
+      <Dependent Role="ClaimReverseFeed">
+        <PropertyRef Name="ClaimId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_CardTypeMaster">
+    <End Role="CardTypeMaster" Type="FinexAlmondzModel.Store.CardTypeMaster" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CardTypeMaster">
+        <PropertyRef Name="CardTypeId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="CardTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_CityMaste">
+    <End Role="CityMaste" Type="FinexAlmondzModel.Store.CityMaste" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CityMaste">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_CountryMaster">
+    <End Role="CountryMaster" Type="FinexAlmondzModel.Store.CountryMaster" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CountryMaster">
+        <PropertyRef Name="CountryId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_Customers">
+    <End Role="Customers" Type="FinexAlmondzModel.Store.Customers" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="CustId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_LossTypeMaster">
+    <End Role="LossTypeMaster" Type="FinexAlmondzModel.Store.LossTypeMaster" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LossTypeMaster">
+        <PropertyRef Name="LossTypeId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="LossTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_LossTypeMasterParent">
+    <End Role="LossTypeMaster" Type="FinexAlmondzModel.Store.LossTypeMaster" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LossTypeMaster">
+        <PropertyRef Name="LossTypeId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="ParentLossTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_PolicyMaster">
+    <End Role="PolicyMaster" Type="FinexAlmondzModel.Store.PolicyMaster" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PolicyMaster">
+        <PropertyRef Name="PolicyId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="PolicyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Claims_StatusMaster">
+    <End Role="StatusMaster" Type="FinexAlmondzModel.Store.StatusMaster" Multiplicity="0..1" />
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusMaster">
+        <PropertyRef Name="StatusId" />
+      </Principal>
+      <Dependent Role="Claims">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentTypeMaster_CardTypeMaster">
+    <End Role="CardTypeMaster" Type="FinexAlmondzModel.Store.CardTypeMaster" Multiplicity="0..1" />
+    <End Role="DocumentTypeMaster" Type="FinexAlmondzModel.Store.DocumentTypeMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CardTypeMaster">
+        <PropertyRef Name="CardTypeId" />
+      </Principal>
+      <Dependent Role="DocumentTypeMaster">
+        <PropertyRef Name="CardTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentUploads_Claims">
+    <End Role="Claims" Type="FinexAlmondzModel.Store.Claims" Multiplicity="0..1" />
+    <End Role="DocumentUploads" Type="FinexAlmondzModel.Store.DocumentUploads" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Claims">
+        <PropertyRef Name="ClaimId" />
+      </Principal>
+      <Dependent Role="DocumentUploads">
+        <PropertyRef Name="ClaimId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentUploads_Customers">
+    <End Role="Customers" Type="FinexAlmondzModel.Store.Customers" Multiplicity="0..1" />
+    <End Role="DocumentUploads" Type="FinexAlmondzModel.Store.DocumentUploads" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustId" />
+      </Principal>
+      <Dependent Role="DocumentUploads">
+        <PropertyRef Name="CustId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DocumentUploads_DocumentTypeMaster">
+    <End Role="DocumentTypeMaster" Type="FinexAlmondzModel.Store.DocumentTypeMaster" Multiplicity="0..1" />
+    <End Role="DocumentUploads" Type="FinexAlmondzModel.Store.DocumentUploads" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DocumentTypeMaster">
+        <PropertyRef Name="DocumentTypeId" />
+      </Principal>
+      <Dependent Role="DocumentUploads">
+        <PropertyRef Name="DocumentTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OTP_Customers">
+    <End Role="Customers" Type="FinexAlmondzModel.Store.Customers" Multiplicity="0..1" />
+    <End Role="OTP" Type="FinexAlmondzModel.Store.OTP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustId" />
+      </Principal>
+      <Dependent Role="OTP">
+        <PropertyRef Name="CustId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Passwords_UserMaster">
+    <End Role="UserMaster" Type="FinexAlmondzModel.Store.UserMaster" Multiplicity="1" />
+    <End Role="Passwords" Type="FinexAlmondzModel.Store.Passwords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserMaster">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Passwords">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PolicyMaster_CardTypeMaster">
+    <End Role="CardTypeMaster" Type="FinexAlmondzModel.Store.CardTypeMaster" Multiplicity="0..1" />
+    <End Role="PolicyMaster" Type="FinexAlmondzModel.Store.PolicyMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CardTypeMaster">
+        <PropertyRef Name="CardTypeId" />
+      </Principal>
+      <Dependent Role="PolicyMaster">
+        <PropertyRef Name="CardTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StateMaster_CountryMaster">
+    <End Role="CountryMaster" Type="FinexAlmondzModel.Store.CountryMaster" Multiplicity="0..1" />
+    <End Role="StateMaster" Type="FinexAlmondzModel.Store.StateMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CountryMaster">
+        <PropertyRef Name="CountryId" />
+      </Principal>
+      <Dependent Role="StateMaster">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserMaster_UserTypes">
+    <End Role="UserTypes" Type="FinexAlmondzModel.Store.UserTypes" Multiplicity="0..1" />
+    <End Role="UserMaster" Type="FinexAlmondzModel.Store.UserMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTypes">
+        <PropertyRef Name="UseTypeId" />
+      </Principal>
+      <Dependent Role="UserMaster">
+        <PropertyRef Name="UserTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

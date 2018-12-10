@@ -1,0 +1,25 @@
+D:\tfs\Finex\Finex.Utility\bin\Release\Finex.Utility.dll
+D:\tfs\Finex\Finex.Utility\bin\Release\Finex.Utility.pdb
+D:\tfs\Finex\Finex.Utility\obj\Release\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\tfs\Finex\Finex.Utility\obj\Release\Finex.Utility.dll
+D:\tfs\Finex\Finex.Utility\obj\Release\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\bin\Release\Finex.Utility.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\bin\Release\Finex.Utility.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\obj\Release\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\obj\Release\Finex.Utility.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Utility\obj\Release\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\bin\Release\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\bin\Release\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\obj\Release\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\obj\Release\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Utility\obj\Release\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Utility\bin\Release\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Utility\bin\Release\Finex.Utility.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Utility\obj\Release\Finex.Utility.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Utility\obj\Release\Finex.Utility.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Utility\obj\Release\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Utility\bin\Release\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Utility\bin\Release\Finex.Utility.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Utility\obj\Release\Finex.Utility.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Utility\obj\Release\Finex.Utility.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Utility\obj\Release\Finex.Utility.pdb

@@ -1,0 +1,25 @@
+D:\tfs\Finex\Finex.Logging\bin\Release\Finex.Logging.dll
+D:\tfs\Finex\Finex.Logging\bin\Release\Finex.Logging.pdb
+D:\tfs\Finex\Finex.Logging\obj\Release\Finex.Logging.dll
+D:\tfs\Finex\Finex.Logging\obj\Release\Finex.Logging.pdb
+D:\tfs\Finex\Finex.Logging\obj\Release\Finex.Logging.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Logging\bin\Release\Finex.Logging.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Logging\bin\Release\Finex.Logging.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Logging\obj\Release\Finex.Logging.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Logging\obj\Release\Finex.Logging.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Logging\obj\Release\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Logging\bin\Release\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Logging\bin\Release\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Logging\obj\Release\Finex.Logging.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Logging\obj\Release\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Logging\obj\Release\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Logging\bin\Release\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Logging\bin\Release\Finex.Logging.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Logging\obj\Release\Finex.Logging.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Logging\obj\Release\Finex.Logging.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Logging\obj\Release\Finex.Logging.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Logging\bin\Release\Finex.Logging.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Logging\bin\Release\Finex.Logging.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Logging\obj\Release\Finex.Logging.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Logging\obj\Release\Finex.Logging.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Logging\obj\Release\Finex.Logging.pdb

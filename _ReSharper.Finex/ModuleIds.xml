@@ -1,0 +1,10 @@
+<Modules>
+  <Module PersistentId="62BBACDD-B034-4019-ADAA-F9839366555E" ModuleId="Finex.Data" />
+  <Module PersistentId="F09428AD-F131-4E4C-8D6B-6E0B4D4748E4" ModuleId="Finex.Buisness" />
+  <Module PersistentId="D6E36C6B-5C95-4994-B5DD-DC0342B8DEC5" ModuleId="Finex.Dto" />
+  <Module PersistentId="47EC3767-45FE-4F9A-8E36-B16C243AD8B1" ModuleId="Finex.Utility" />
+  <Module PersistentId="94CFA766-BAED-4FD1-B9CE-7359BB5A3C7A" ModuleId="Finex.Logging" />
+  <Module PersistentId="5716C5B3-49D5-48FE-9242-8CED599787C0" ModuleId="Finex.Web_1" />
+  <Module PersistentId="F07C0B48-94A3-4A9E-B511-97093EBDE9DD" ModuleId="Finex.Web.Tests" />
+  <Module PersistentId="E30446D4-5661-4A59-8777-7474EF980481" ModuleId="ConsoleEncrypt" />
+</Modules>

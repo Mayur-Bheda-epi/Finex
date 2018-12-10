@@ -1,0 +1,30 @@
+alter table Bill_Master add  VatTwentyPer decimal(18,2)
+
+
+-----------------------------------------------------------------
+
+Alter proc [dbo].[spInsertBillCash]          
+@Bill_Invoice int,          
+@Bill_Date datetime,          
+@Bill_TID int,          
+@Bill_TableName varchar(50),          
+@Bill_GrossAmount float,          
+@Bill_Service float,          
+@Bill_Discount float,          
+@Bill_DiscountPer float,          
+@Bill_Tax float,          
+@Bill_NetAmount float,          
+@Bill_PayMode varchar(50),      
+@Bill_WaiterName varchar(50) ,  
+@vatAmt decimal(18,2),
+@vatFree decimal(18,2),    
+@vatOn decimal(18,2),
+@VatFivePer decimal(18,2),
+@VatFourteenPer decimal(18,2),
+@VatFifteenPer decimal(18,2),
+@vatTwentyPer decimal(18,2)
+as          
+begin           
+insert into Bill_Master(Bill_Invoice,Bill_Date,Bill_TID,Bill_TableName,Bill_GrossAmount,Bill_Service,Bill_Discount,Bill_DiscountPer,Bill_Tax,Bill_NetAmount,Bill_PayMode,Bill_WaiterName,Bill_IsActive,vatAmt,vatOn,vatFree,VatFivePer,VatFourteenPer,VatFifteenPer,VatTwentyPer) values(@Bill_Invoice,@Bill_Date,@Bill_TID,@Bill_TableName,@Bill_GrossAmount,@Bill_Service,@Bill_Discount,@Bill_DiscountPer,@Bill_Tax,@Bill_NetAmount,@Bill_PayMode,@Bill_WaiterName,1,@vatAmt,@vatOn,@vatFree,@VatFivePer,@VatFourteenPer,@VatFifteenPer,@vatTwentyPer)
+
+end

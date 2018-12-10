@@ -1,0 +1,139 @@
+﻿@model Finex.Dto.Dtos.UserMasterDto
+@{
+    ViewBag.Title = "AddUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+<div class="row">
+
+    <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+        <br />
+
+        <div class="login-cntnr">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="inner-header pull-left">
+                        <h2>Register a User</h2>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="btn-cntnr pull-right">
+                        <button class="btn btn-default" onclick="javascript:window.location.href = '@Url.Action("GetUsers", "User")';">Back</button>
+                    </div>
+                </div>
+            </div>
+
+
+            @using (Html.BeginForm("SaveUser", "User", FormMethod.Post, new { @id = "myform" }))
+            {
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="UserId" value="@Model.UserId" id="hdnUserId"/>
+                
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                Name* :</label>
+                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Name, null, new { style = "color: red" })
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                User Type* :
+                            </label>
+
+                            <select class="form-control" name="UserTypeId">
+
+                                @foreach (var userType in Model.UserTypesDtos)
+                                {
+                                    if (userType.UseTypeId == Model.UserTypeId)
+                                    {
+                                    <option value="@userType.UseTypeId" selected="selected">@userType.Type</option>
+                                    }
+                                    else
+                                    {
+                                    <option value="@userType.UseTypeId">@userType.Type</option>
+                                    }
+                                }
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                User Name* :</label>
+                            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.UserName, null, new { style = "color: red" })
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/card.png" class="icons">
+                                Password* :
+                            </label>
+
+                            @Html.PasswordFor(m => m.PasswordsDto.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.PasswordsDto.Password, null, new { style = "color: red" })
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Mobile* :</label>
+                            @Html.TextBoxFor(m => m.Mobile, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Mobile, null, new { style = "color: red" })
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="form-group">
+                            <label>
+                                <img src="~/Asset/img/user.png" class="icons">
+                                Email* :</label>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Email, null, new { style = "color: red" })
+
+                        </div>
+                    </div>
+                </div>
+
+            
+                  
+
+                <div style="height: 20px;"></div>
+                <div class="btn-cntnr pull-left">
+                    <button class="btn btn-default" type="submit" id="btnSubmit" onclick="return Validate()">Save</button>
+                    &nbsp;
+                    <button type="button" class="btn btn-default" onclick="CancelAdd()">Cancel</button>
+                </div>
+            }
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="gapper"></div>
+
+<script>
+    function CancelAdd() {
+        window.location.href = "@Url.Action("GetUsers", "User")";
+    }
+
+</script>

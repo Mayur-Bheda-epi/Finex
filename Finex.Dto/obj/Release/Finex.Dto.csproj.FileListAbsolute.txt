@@ -1,0 +1,39 @@
+D:\tfs\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+D:\tfs\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+D:\tfs\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+D:\tfs\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+C:\Planfirma\Finex (3)\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
+D:\tfs\Finex\Finex.Dto\obj\Release\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\obj\Release\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\obj\Release\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegration\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\obj\Release\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+D:\tfs\Planfirma Projects\FinexV3NiaIntegrationNew\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\obj\Release\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\obj\Release\Finex.Dto.csprojResolveAssemblyReference.cache
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+D:\Working Folder\WTW Files\Finex_2\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Dto\bin\Release\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Dto\bin\Release\Finex.Dto.pdb
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Dto\obj\Release\Finex.Dto.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Dto\obj\Release\Finex.Dto.dll
+C:\Users\Lenovo\Desktop\Finex\Finex_2 (1)\Finex_2\Finex\Finex.Dto\obj\Release\Finex.Dto.pdb
